@@ -38,8 +38,8 @@
 		"domhandler": "^3.0.0",
 		"domutils": "^2.0.0",
 		"htmlparser2": "^4.0.0",
-		"resolve": "^1.13.1",
-		"svelte": "^3.16.4"
+		"resolve": "^1.14.0",
+		"svelte": "^3.16.5"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.3"
