@@ -14,7 +14,6 @@ npm i @ctx-core/svg
 
 ```javascript
 // rollup.config.js
-require = require('esm')(module)
 const { _preprocess } = require('@ctx-core/svelte/preprocess')
 const { _preprocess__svg } = require('@ctx-core/svg/svelte')
 const preprocess__svg = _preprocess__svg()
