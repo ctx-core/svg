@@ -2,8 +2,8 @@ import fs from 'fs'
 import { join } from 'path'
 import { map } from '@ctx-core/array'
 import { keys, clone, _has__key } from '@ctx-core/object'
-const { promisify } = require('util')
-const { Parser } = require('htmlparser2')
+import { promisify } from 'util'
+import { Parser } from 'htmlparser2'
 const exists = promisify(fs.exists)
 const readFile = promisify(fs.readFile)
 export function _get__svg({ dir }) {

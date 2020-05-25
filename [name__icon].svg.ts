@@ -2,10 +2,11 @@ import fs from 'fs'
 import { promisify } from 'util'
 import { assign } from '@ctx-core/object'
 import { find } from '@ctx-core/array'
-const { DomHandler, Parser } = require('htmlparser2')
-const { getOuterHTML } = require('domutils')
+import { DomHandler, Parser } from 'htmlparser2'
+import { getOuterHTML } from 'domutils'
 const readFile = promisify(fs.readFile)
-const resolve_promise = promisify(require('resolve'))
+import resolve from 'resolve'
+const resolve_promise = promisify(resolve)
 /**
  * @typedef Request - Express request
  */
@@ -50,7 +51,7 @@ export function _get(opts:Opts__get = {}) {
 		})
 		const parser = new Parser(handler)
 		const path__icon = await resolve(name__icon)
-		parser.write(await readFile(path__icon))
+		parser.write((await readFile(path__icon)).toString())
 		parser.end()
 		res.end(svg)
 	}
