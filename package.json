@@ -2,7 +2,6 @@
 	"name": "@ctx-core/svg",
 	"version": "7.0.35",
 	"description": "ctx-core svg",
-	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
