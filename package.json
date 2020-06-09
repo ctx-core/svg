@@ -39,10 +39,10 @@
 		"domutils": "^2.1.0",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
-		"svelte": "^3.23.0"
+		"svelte": "^3.23.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "838bf651bd88f4bb8eabd676c2d00fccaa1eef5d"
 }
