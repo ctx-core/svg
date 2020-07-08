@@ -39,7 +39,7 @@
 		"domutils": "^2.1.0",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
-		"svelte": "^3.23.2"
+		"svelte": "^3.24.0"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.6"
