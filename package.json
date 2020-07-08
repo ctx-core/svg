@@ -2,9 +2,9 @@
 	"name": "@ctx-core/svg",
 	"version": "7.0.46",
 	"description": "ctx-core svg",
-	"main": "lib.js",
-	"module": "lib.js",
-	"types": "lib.ts",
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
