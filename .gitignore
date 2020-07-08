@@ -1,8 +1,4 @@
 .rpt2_cache
 tsconfig.tsbuildinfo
-[name__icon].svg.js
-middleware.js
-store.js
-svelte.js
-
 node_modules
+*.js
