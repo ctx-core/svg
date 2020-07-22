@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "7.0.64",
+	"version": "7.0.65",
 	"description": "ctx-core svg",
 	"main": "./index.js",
 	"module": "./index.js",
