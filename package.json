@@ -31,7 +31,6 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^16.0.13",
-		"@ctx-core/logger": "^3.1.23",
 		"@ctx-core/object": "^9.0.13",
 		"@ctx-core/store": "^16.0.16",
 		"@ctx-core/svelte": "^5.3.30",

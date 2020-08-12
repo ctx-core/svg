@@ -1,7 +1,5 @@
 import { writable, derived, get } from 'svelte/store'
 import { _b } from '@ctx-core/object'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/svg/store.js'
 export const b__margin__svg = _b('__margin__svg', ()=>
 	writable(null))
 export const __margin__svg = b__margin__svg()
@@ -55,7 +53,6 @@ export const b__set__matrix2d__svg = _b('set__matrix2d__svg', ctx=>{
 	async function set__matrix2d__svg(
 		opts:Opts__set__matrix2d__svg = {}
 	) {
-		log(`${logPrefix}|set__matrix2d__svg`)
 		const margin__svg =
 			opts.margin__svg
 			|| get(b__margin__svg(ctx))
