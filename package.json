@@ -35,7 +35,7 @@
 		"@ctx-core/store": "^16.0.16",
 		"@ctx-core/svelte": "^5.3.30",
 		"domhandler": "^3.0.0",
-		"domutils": "^2.1.0",
+		"domutils": "^2.2.0",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
 		"svelte": "^3.24.1"
