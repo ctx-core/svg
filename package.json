@@ -30,7 +30,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^16.0.15",
+		"@ctx-core/array": "^17.0.0",
 		"@ctx-core/object": "^10.0.0",
 		"@ctx-core/store": "^16.2.2",
 		"@ctx-core/svelte": "^5.3.32",
