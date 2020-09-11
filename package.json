@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "7.0.94",
+	"version": "7.0.95",
 	"description": "ctx-core svg",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -32,8 +32,8 @@
 	"dependencies": {
 		"@ctx-core/array": "^17.0.2",
 		"@ctx-core/object": "^10.0.2",
-		"@ctx-core/store": "^16.2.5",
-		"@ctx-core/svelte": "^5.3.33",
+		"@ctx-core/store": "^16.2.6",
+		"@ctx-core/svelte": "^5.3.34",
 		"domhandler": "^3.0.0",
 		"domutils": "^2.2.0",
 		"htmlparser2": "^4.1.0",
