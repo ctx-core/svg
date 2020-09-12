@@ -1,15 +1,13 @@
 import '@ctx-core/svelte/preprocess';
-export declare type Opts__fn_markup = {
+export declare type _markup_builder_opts_type = {
     _match?: ({ filename: string }: {
         filename: any;
     }) => string;
 };
 /**
  * Returns a svg preprocessor for svelte-rollup.
- * @param {opts__builder} opts__builder
- * @returns {function(opts__preprocess): {ctx__code__map}}
  */
-export declare function _markup(opts__builder?: Opts__fn_markup): (opts: any) => Promise<{
+export declare function _markup(builder_opts?: _markup_builder_opts_type): (opts: any) => Promise<{
     code: any;
     map: any;
 }>;

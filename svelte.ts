@@ -3,21 +3,19 @@ import { keys } from '@ctx-core/object'
 import { map } from '@ctx-core/array'
 import { Parser } from 'htmlparser2/lib/Parser'
 import { DomHandler } from 'domhandler/lib'
-import { Element } from 'domhandler/lib/node'
+import type { Element } from 'domhandler/lib/node'
 import { getInnerHTML } from 'domutils'
 import '@ctx-core/svelte/preprocess'
-export type Opts__fn_markup = {
+export type _markup_builder_opts_type = {
 	_match?:({ filename: string })=>string
 }
 /**
  * Returns a svg preprocessor for svelte-rollup.
- * @param {opts__builder} opts__builder
- * @returns {function(opts__preprocess): {ctx__code__map}}
  */
-export function _markup(opts__builder:Opts__fn_markup = {}) {
+export function _markup(builder_opts:_markup_builder_opts_type = {}) {
 	const {
 		_match = ({ filename })=>extname(filename) === '.svg',
-	} = opts__builder
+	} = builder_opts
 	return async opts=>{
 		if (!_match(opts)) return
 		const { content } = opts
@@ -37,14 +35,14 @@ export async function preload({ params, query }) {
 }
 </script>
 <script>
-let node__svg
+let svg_node
 $: {
 	Object.keys($$props).forEach(
-		prop => node__svg && node__svg.setAttribute(prop, $$props[prop]))
+		prop => svg_node && svg_node.setAttribute(prop, $$props[prop]))
 }
 </script>
 <svelte:options namespace="svg"></svelte:options>
-<svg bind:this="{node__svg}" ${txt__attribs}>${getInnerHTML(dom0)}</svg>
+<svg bind:this={svg_node} ${txt__attribs}>${getInnerHTML(dom0)}</svg>
 				`.trim()
 		})
 		const parser = new Parser(handler)
