@@ -32,7 +32,7 @@
 		"@ctx-core/store": "workspace:*",
 		"@ctx-core/svelte": "workspace:*",
 		"domhandler": "^3.0.0",
-		"domutils": "^2.2.0",
+		"domutils": "^2.3.0",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
 		"svelte": "^3.25.0"
