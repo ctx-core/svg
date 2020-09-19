@@ -40,7 +40,7 @@ export function _get__svg({ dir }) {
 			onopentag(name, attribs) {
 				if (name === 'svg') {
 					startIndex__svg__opentag = parser.startIndex
-					endIndex__svg__opentag = parser.endIndex
+					endIndex__svg__opentag = parser.endIndex as number
 					const attribs__ = clone(attribs, query)
 					if (attribs__.viewbox) {
 						attribs__.viewBox = attribs__.viewbox

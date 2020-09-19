@@ -20,11 +20,11 @@ export function _markup(builder_opts:_markup_builder_opts_type = {}) {
 		if (!_match(opts)) return
 		const { content } = opts
 		let code
-		const handler = new DomHandler((error, dom:Element[])=>{
+		const handler = new DomHandler((error, dom)=>{
 			if (error) throw error
 			const dom0 = dom[0]
-			const { attribs } = dom0
-			const txt__attribs =
+			const { attribs } = dom0 as Element
+			const attribs_txt =
 				map(
 					keys(attribs),
 					key=>`${key}=${JSON.stringify(attribs[key])}`).join(' ')
@@ -42,7 +42,7 @@ $: {
 }
 </script>
 <svelte:options namespace="svg"></svelte:options>
-<svg bind:this={svg_node} ${txt__attribs}>${getInnerHTML(dom0)}</svg>
+<svg bind:this={svg_node} ${attribs_txt}>${getInnerHTML(dom0)}</svg>
 				`.trim()
 		})
 		const parser = new Parser(handler)
