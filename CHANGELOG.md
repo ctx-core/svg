@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 8.0.1
+
+### Patch Changes
+
+- @ctx-core/array@19.0.1
+- @ctx-core/store@17.0.1
+- @ctx-core/sapper@7.0.1
+
 ## 8.0.0
 
 ### Major Changes
