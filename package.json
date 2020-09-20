@@ -1,50 +1,50 @@
 {
-	"name": "@ctx-core/svg",
-	"version": "8.0.2",
-	"description": "ctx-core svg",
-	"keywords": [
-		"ctx-core",
-		"svg"
-	],
-	"homepage": "https://github.com/ctx-core/svg#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/svg/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/svg/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "./node_modules/.bin/tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/array": "workspace:^19.0.2",
-		"@ctx-core/error": "workspace:^7.0.1",
-		"@ctx-core/function": "workspace:^16.0.0",
-		"@ctx-core/object": "workspace:^12.0.1",
-		"@ctx-core/sapper": "workspace:^7.0.2",
-		"@ctx-core/store": "workspace:^17.0.2",
-		"@ctx-core/svelte": "workspace:^6.0.0",
-		"domhandler": "^3.0.0",
-		"domutils": "^2.3.0",
-		"htmlparser2": "^4.1.0",
-		"resolve": "^1.17.0",
-		"svelte": "~3.25.1"
-	},
-	"devDependencies": {
-		"@types/express": "~4.17.8",
-		"typescript": "^4.0.3"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@ctx-core/svg",
+  "version": "8.0.3",
+  "description": "ctx-core svg",
+  "keywords": [
+    "ctx-core",
+    "svg"
+  ],
+  "homepage": "https://github.com/ctx-core/svg#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/svg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/svg/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "./node_modules/.bin/tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/array": "workspace:^19.0.3",
+    "@ctx-core/error": "workspace:^7.0.1",
+    "@ctx-core/function": "workspace:^16.0.0",
+    "@ctx-core/object": "workspace:^12.0.1",
+    "@ctx-core/sapper": "workspace:^7.0.3",
+    "@ctx-core/store": "workspace:^17.0.3",
+    "@ctx-core/svelte": "workspace:^6.0.0",
+    "domhandler": "^3.0.0",
+    "domutils": "^2.3.0",
+    "htmlparser2": "^4.1.0",
+    "resolve": "^1.17.0",
+    "svelte": "~3.25.1"
+  },
+  "devDependencies": {
+    "@types/express": "~4.17.8",
+    "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
