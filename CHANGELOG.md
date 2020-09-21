@@ -1,5 +1,19 @@
 # @ctx-core/svg
 
+## 8.0.8
+
+### Patch Changes
+
+- stricter type checking of generics
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.1.0
+  - @ctx-core/array@19.0.5
+  - @ctx-core/object@12.0.3
+  - @ctx-core/store@17.0.5
+  - @ctx-core/sapper@7.0.6
+  - @ctx-core/error@7.0.3
+
 ## 8.0.7
 
 ### Patch Changes
