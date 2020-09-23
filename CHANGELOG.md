@@ -1,5 +1,23 @@
 # @ctx-core/svg
 
+## 8.0.21
+
+### Patch Changes
+
+- domutils: ^2.3.0 -> ^2.4.0
+- domhandler: ^3.0.0 -> ^3.1.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@18.0.0
+  - @ctx-core/sapper@7.0.19
+
 ## 8.0.20
 
 ### Patch Changes
