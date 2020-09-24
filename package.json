@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "8.0.23",
+	"version": "8.0.24",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -31,8 +31,8 @@
 		"@ctx-core/error": "workspace:^7.0.6",
 		"@ctx-core/function": "workspace:^16.1.0",
 		"@ctx-core/object": "workspace:^12.0.6",
-		"@ctx-core/sapper": "workspace:^7.0.21",
-		"@ctx-core/store": "workspace:^18.0.2",
+		"@ctx-core/sapper": "workspace:^7.0.22",
+		"@ctx-core/store": "workspace:^18.1.0",
 		"@ctx-core/svelte": "workspace:^6.0.3",
 		"domhandler": "^3.1.0",
 		"domutils": "^2.4.0",
