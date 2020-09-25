@@ -34,7 +34,7 @@
 		"@ctx-core/sapper": "workspace:^8.1.12",
 		"@ctx-core/store": "workspace:^18.1.11",
 		"@ctx-core/svelte": "workspace:^6.0.5",
-		"domhandler": "^3.1.0",
+		"domhandler": "^3.2.0",
 		"domutils": "^2.4.0",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
