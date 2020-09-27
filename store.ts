@@ -81,11 +81,11 @@ export const b__set__matrix2d__svg = _b('set__matrix2d__svg', ctx=>{
 	) {
 		const margin__svg =
 			opts.margin__svg
-			|| get<maybe_null<$type__margin__svg>>(b__margin__svg(ctx))
+			|| get(b__margin__svg(ctx))
 			|| { top: 20, right: 20, bottom: 60, left: 100 } as $type__margin__svg
 		const width__svg =
 			opts.width__svg
-			|| get<maybe_null<$type__width__svg>>(b__width__svg(ctx))
+			|| get(b__width__svg(ctx))
 			|| NaN
 		const height__svg =
 			opts.height__svg

@@ -1,5 +1,15 @@
 # @ctx-core/svg
 
+## 8.0.39
+
+### Patch Changes
+
+- get: using infered type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@19.0.0
+  - @ctx-core/sapper@8.1.14
+
 ## 8.0.38
 
 ### Patch Changes
