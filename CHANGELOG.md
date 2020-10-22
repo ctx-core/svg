@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 8.0.55
+
+### Patch Changes
+
+- resolve: ^1.17.0 -> ^1.18.1
+- Updated dependencies [undefined]
+  - @ctx-core/sapper@8.1.28
+
 ## 8.0.54
 
 ### Patch Changes
