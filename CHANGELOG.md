@@ -1,5 +1,21 @@
 # @ctx-core/svg
 
+## 8.1.0
+
+### Minor Changes
+
+- interface instead of type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.0
+  - @ctx-core/error@7.1.0
+  - @ctx-core/object@13.1.0
+  - @ctx-core/sapper@8.2.0
+  - @ctx-core/store@23.1.0
+  - @ctx-core/svelte@6.1.0
+
 ## 8.0.66
 
 ### Patch Changes
