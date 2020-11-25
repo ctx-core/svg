@@ -1,11 +1,11 @@
 import type { Request, Response } from 'express';
-export declare type _get_opts_type_fn_req_type = {
+export interface _get_opts_type_fn_req_type {
     fn(req: Request, res: Response): Promise<void>;
-};
-export declare type _get_opts_type = {
+}
+export interface _get_opts_type {
     fn?: (req: Request, res: Response) => Promise<any>;
     resolve?: (path: string) => string;
-};
+}
 /**
  * Returns a `get` http handler that processes the svelte component whose path
  * is returned from `opts.resolve`.

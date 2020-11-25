@@ -6,7 +6,7 @@ import { DomHandler } from 'domhandler/lib'
 import type { Element } from 'domhandler/lib/node'
 import { getInnerHTML } from 'domutils'
 import '@ctx-core/svelte/preprocess'
-export type _markup_builder_opts_type = {
+export interface _markup_builder_opts_type {
 	_match?:({ filename: string })=>string
 }
 /**

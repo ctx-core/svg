@@ -10,10 +10,10 @@ import type { Request, Response } from 'express'
 import type { params_type, query_type } from '@ctx-core/sapper'
 import resolve from 'resolve'
 const resolve_promise = promisify(resolve)
-export type _get_opts_type_fn_req_type = {
+export interface _get_opts_type_fn_req_type {
 	fn(req:Request, res:Response):Promise<void>
 }
-export type _get_opts_type = {
+export interface _get_opts_type {
 	fn?:(req:Request, res:Response)=>Promise<any>
 	resolve?:(path:string)=>string
 }

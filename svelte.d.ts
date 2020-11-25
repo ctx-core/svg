@@ -1,9 +1,9 @@
 import '@ctx-core/svelte/preprocess';
-export declare type _markup_builder_opts_type = {
+export interface _markup_builder_opts_type {
     _match?: ({ filename: string }: {
         filename: any;
     }) => string;
-};
+}
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */

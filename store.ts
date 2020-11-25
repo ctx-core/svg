@@ -31,7 +31,7 @@ export type type__height__content__svg = Writable<$maybe_type__height__content__
 export const b__height__content__svg = _b<type__height__content__svg>('__height__content__svg', ()=>
 	writable(null))
 export const __height__content__svg = b__height__content__svg()
-export type $type__ctx__matrix2d__svg = {
+export interface $type__ctx__matrix2d__svg {
 	margin__svg:$maybe_type__margin__svg
 	width__svg:$maybe_type__width__svg
 	height__svg:$maybe_type__height__svg
@@ -63,13 +63,13 @@ export const b__ctx__matrix2d__svg = _b<type__ctx__matrix2d__svg>('__ctx__matrix
 	)
 )
 export const __ctx__matrix2d__svg = b__ctx__matrix2d__svg()
-export type Placement = {
+export interface Placement {
 	top:number
 	right:number
 	bottom:number
 	left:number
 }
-export type Opts__set__matrix2d__svg = {
+export interface Opts__set__matrix2d__svg {
 	margin__svg?:Placement
 	width__svg?:number
 	height__svg?:number
