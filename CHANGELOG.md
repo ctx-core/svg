@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 8.2.2
+
+### Patch Changes
+
+- domhandler: ^3.3.0 -> ^4.0.0
+
 ## 8.2.1
 
 ### Patch Changes
