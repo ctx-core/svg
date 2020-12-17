@@ -5,7 +5,7 @@ import { $maybe_svg_width_type, svg_width_b } from './svg_width_b'
 import { $maybe_svg_height_type, svg_height_b } from './svg_height_b'
 import { $maybe_svg_content_width_type, svg_content_width_b } from './svg_content_width_b'
 import { $maybe_svg_content_height_type, svg_content_height_b } from './svg_content_height_b'
-export const svg_matrix2d_ctx_b = _b<type__ctx__matrix2d__svg>('svg_matrix2d_ctx', ctx=>
+export const svg_matrix2d_ctx_b = _b('svg_matrix2d_ctx', ctx=>
 	derived([
 			svg_margin_b(ctx),
 			svg_width_b(ctx),
@@ -26,16 +26,16 @@ export const svg_matrix2d_ctx_b = _b<type__ctx__matrix2d__svg>('svg_matrix2d_ctx
 			svg_content_width,
 			svg_content_height,
 		})
-	)
+	) as svg_matrix2d_ctx_type
 )
-export interface $type__ctx__matrix2d__svg {
+export interface $svg_matrix2d_ctx_type {
 	svg_margin:$maybe_svg_margin_type
 	svg_width:$maybe_svg_width_type
 	svg_height:$maybe_svg_height_type
 	svg_content_width:$maybe_svg_content_width_type
 	svg_content_height:$maybe_svg_content_height_type
 }
-export type type__ctx__matrix2d__svg = Readable<$type__ctx__matrix2d__svg>
+export interface svg_matrix2d_ctx_type extends Readable<$svg_matrix2d_ctx_type> {}
 export {
 	svg_matrix2d_ctx_b as b__ctx__matrix2d__svg,
 }
