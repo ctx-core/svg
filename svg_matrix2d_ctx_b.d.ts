@@ -4,7 +4,7 @@ import { $maybe_svg_width_type } from './svg_width_b';
 import { $maybe_svg_height_type } from './svg_height_b';
 import { $maybe_svg_content_width_type } from './svg_content_width_b';
 import { $maybe_svg_content_height_type } from './svg_content_height_b';
-export declare const svg_matrix2d_ctx_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => svg_matrix2d_ctx_type;
+export declare const svg_matrix2d_ctx_b: import("@ctx-core/object").be_type<svg_matrix2d_ctx_type, object>;
 export interface $svg_matrix2d_ctx_type {
     svg_margin: $maybe_svg_margin_type;
     svg_width: $maybe_svg_width_type;

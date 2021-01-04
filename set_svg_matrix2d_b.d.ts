@@ -1,5 +1,5 @@
 import type { Placement } from './Placement';
-export declare const set_svg_matrix2d_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => (opts?: Opts__set__matrix2d__svg) => Promise<void>;
+export declare const set_svg_matrix2d_b: import("@ctx-core/object").be_type<(opts?: Opts__set__matrix2d__svg) => Promise<void>, object>;
 export interface Opts__set__matrix2d__svg {
     svg_margin?: Placement;
     svg_width?: number;
