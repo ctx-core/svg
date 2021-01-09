@@ -1,5 +1,14 @@
 # @ctx-core/svg
 
+## 9.0.33
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.3.0
+  - @ctx-core/sapper@9.4.3
+
 ## 9.0.32
 
 ### Patch Changes
