@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 9.0.37
+
+### Patch Changes
+
+- @types/express: 4.17.9 -> 4.17.11
+
 ## 9.0.36
 
 ### Patch Changes
