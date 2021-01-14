@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "9.0.37",
+	"version": "9.0.38",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -27,12 +27,12 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^19.2.1",
-		"@ctx-core/error": "workspace:^7.1.22",
-		"@ctx-core/function": "workspace:^16.9.0",
-		"@ctx-core/object": "workspace:^16.0.3",
-		"@ctx-core/sapper": "workspace:^9.4.6",
-		"@ctx-core/store": "workspace:^23.3.3",
+		"@ctx-core/array": "workspace:^19.2.2",
+		"@ctx-core/error": "workspace:^7.1.23",
+		"@ctx-core/function": "workspace:^16.9.1",
+		"@ctx-core/object": "workspace:^16.0.4",
+		"@ctx-core/sapper": "workspace:^9.4.7",
+		"@ctx-core/store": "workspace:^23.3.4",
 		"@ctx-core/svelte": "workspace:^6.1.9",
 		"domhandler": "^4.0.0",
 		"domutils": "^2.4.4",
