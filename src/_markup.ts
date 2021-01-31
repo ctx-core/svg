@@ -1,14 +1,10 @@
 import { extname } from 'path'
-import { keys } from '@ctx-core/object'
-import { map } from '@ctx-core/array'
-import { Parser } from 'htmlparser2/lib/Parser'
-import { DomHandler } from 'domhandler/lib'
+import { DomHandler } from 'domhandler'
 import type { Element } from 'domhandler/lib/node'
+import { map } from '@ctx-core/array'
+import { keys } from '@ctx-core/object'
 import { getInnerHTML } from 'domutils'
-import '@ctx-core/svelte/preprocess'
-export interface _markup_builder_opts_type {
-	_match?:({ filename: string })=>string
-}
+import { Parser } from 'htmlparser2/lib/Parser'
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
@@ -54,11 +50,6 @@ $: {
 		}
 	}
 }
-export const markup = _markup()
-export const markup__markdown = markup
-export function _preprocess__svg(opts__builder = {}) {
-	const markup = _markup(opts__builder)
-	return {
-		markup,
-	}
+export interface _markup_builder_opts_type {
+	_match?:({ filename: string })=>string
 }

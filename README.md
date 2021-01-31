@@ -10,13 +10,13 @@ npm i @ctx-core/svg
 
 ## Svelte + Sapper Component
 
-`@ctx-core/svg/svelte` has `_preprocess__svg`, which instantiates a rollup preprocess object.
+`@ctx-core/svg/svelte` has `_svg_preprocess`, which instantiates a rollup preprocess object.
 
 ```javascript
 // rollup.config.js
 import { _preprocess } from '@ctx-core/svelte/preprocess'
-import { _preprocess__svg } from '@ctx-core/svg/svelte'
-const preprocess__svg = _preprocess__svg()
+import { _svg_preprocess } from '@ctx-core/svg/svelte'
+const preprocess__svg = _svg_preprocess()
 const preprocess = _preprocess([
 	preprocess__svg,
 	// ...
