@@ -1,18 +1,18 @@
 import { extname } from 'path'
 import { DomHandler } from 'domhandler'
 import type { Element } from 'domhandler/lib/node'
+import { getInnerHTML } from 'domutils'
 import { map } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
-import { getInnerHTML } from 'domutils'
 import { Parser } from 'htmlparser2/lib/Parser'
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
-export function _markup(builder_opts:_markup_builder_opts_type = {}) {
+export function _markup(builder_opts:_markup_builder_opts_type = {}):_markup_return_type {
 	const {
-		_match = ({ filename })=>extname(filename) === '.svg',
+		_match = ({ filename }:_match_opts_type)=>extname(filename) === '.svg',
 	} = builder_opts
-	return async opts=>{
+	return async (opts:_match_opts_type)=>{
 		if (!_match(opts)) return
 		const { content } = opts
 		let code
@@ -51,5 +51,16 @@ $: {
 	}
 }
 export interface _markup_builder_opts_type {
-	_match?:({ filename: string })=>string
+	_match?:(opts:_match_opts_type)=>string
 }
+export interface _match_opts_type {
+	filename:string
+	content:string
+}
+export interface _markup_fn_return_type {
+	code:any
+	map:null
+}
+export type _markup_return_type =
+	(opts:_match_opts_type)=>
+		Promise<_markup_fn_return_type|undefined>

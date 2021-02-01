@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.0.6
+
+### Patch Changes
+
+- fix: types to fix build issues
+
 ## 10.0.5
 
 ### Patch Changes
