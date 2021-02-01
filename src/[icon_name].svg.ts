@@ -43,7 +43,7 @@ export function _get(opts = {} as _get_opts_type) {
 			}
 		})
 		const parser = new Parser(handler)
-		const icon_path = await resolve(icon_name)
+		const icon_path:string = await resolve(icon_name)
 		parser.write((await fs.promises.readFile(icon_path)).toString())
 		parser.end()
 		res.end(svg)
@@ -56,5 +56,5 @@ export interface _get_opts_type_fn_req_type {
 }
 export interface _get_opts_type {
 	fn?:(req:Request, res:Response)=>Promise<any>
-	resolve?:(path:string)=>string
+	resolve?:(path:string)=>Promise<string>
 }

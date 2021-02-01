@@ -11,5 +11,5 @@ export interface _get_opts_type_fn_req_type {
 }
 export interface _get_opts_type {
     fn?: (req: Request, res: Response) => Promise<any>;
-    resolve?: (path: string) => string;
+    resolve?: (path: string) => Promise<string>;
 }
