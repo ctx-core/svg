@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.0.7
+
+### Patch Changes
+
+- fix: \_markup,\_svg_preprocess,markup: type issues
+
 ## 10.0.6
 
 ### Patch Changes

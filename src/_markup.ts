@@ -8,7 +8,7 @@ import { Parser } from 'htmlparser2/lib/Parser'
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
-export function _markup(builder_opts:_markup_builder_opts_type = {}):_markup_return_type {
+export function _markup(builder_opts:_markup_builder_opts_type = {}):markup_type {
 	const {
 		_match = ({ filename }:_match_opts_type)=>extname(filename) === '.svg',
 	} = builder_opts
@@ -61,6 +61,6 @@ export interface _markup_fn_return_type {
 	code:any
 	map:null
 }
-export type _markup_return_type =
+export type markup_type =
 	(opts:_match_opts_type)=>
 		Promise<_markup_fn_return_type|undefined>
