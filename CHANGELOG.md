@@ -1,5 +1,12 @@
 # @ctx-core/svg
 
+## 10.0.2
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/svelte@7.1.0
+
 ## 10.0.1
 
 ### Patch Changes
