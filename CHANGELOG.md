@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.0.5
+
+### Patch Changes
+
+- fix: [icon_name].svg: \_get: icon_path: build issue again
+
 ## 10.0.4
 
 ### Patch Changes

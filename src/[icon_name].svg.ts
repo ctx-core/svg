@@ -43,7 +43,7 @@ export function _get(opts = {} as _get_opts_type) {
 			}
 		})
 		const parser = new Parser(handler)
-		const icon_path:string = await resolve(icon_name)
+		const icon_path = await resolve(icon_name) as string
 		parser.write((await fs.promises.readFile(icon_path)).toString())
 		parser.end()
 		res.end(svg)
