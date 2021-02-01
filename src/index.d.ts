@@ -1,4 +1,3 @@
-import Icon from './Icon.svelte';
 export * from './[icon_name].svg';
 export * from './_markup';
 export * from './_svg_preprocess';
@@ -11,4 +10,3 @@ export * from './svg_height_b';
 export * from './svg_margin_b';
 export * from './svg_matrix2d_ctx_b';
 export * from './svg_width_b';
-export { Icon };

@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.1.0
+
+### Minor Changes
+
+- ui directory
+
 ## 10.0.7
 
 ### Patch Changes
