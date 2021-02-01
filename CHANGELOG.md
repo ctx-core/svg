@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.0.3
+
+### Patch Changes
+
+- fix: remove export type aliases causing build issues
+
 ## 10.0.2
 
 ### Patch Changes

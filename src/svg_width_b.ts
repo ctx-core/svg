@@ -9,7 +9,4 @@ export type $maybe_svg_width_type = maybe_null<$svg_width_type>
 export interface svg_width_type extends Writable<$maybe_svg_width_type> {}
 export {
 	svg_width_b as b__width__svg,
-	$svg_width_type as $type__width__svg,
-	$maybe_svg_width_type as $maybe_type__width__svg,
-	svg_width_type as type__width__svg
 }
