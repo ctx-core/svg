@@ -1,5 +1,19 @@
 # @ctx-core/svg
 
+## 10.1.18
+
+### Patch Changes
+
+- typescript: ^4.1.5 -> ^4.2.2
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.1.11
+  - @ctx-core/error@8.0.9
+  - @ctx-core/function@17.3.4
+  - @ctx-core/object@17.0.9
+  - @ctx-core/sapper@10.0.18
+  - @ctx-core/store@24.0.17
+  - @ctx-core/svelte@7.1.6
+
 ## 10.1.17
 
 ### Patch Changes
