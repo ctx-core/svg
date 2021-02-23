@@ -1,5 +1,14 @@
 # @ctx-core/svg
 
+## 10.1.19
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.3.5
+  - @ctx-core/object@17.0.10
+  - @ctx-core/store@24.0.18
+
 ## 10.1.18
 
 ### Patch Changes
