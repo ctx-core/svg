@@ -8,11 +8,11 @@ import { keys } from '@ctx-core/object'
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
-export function _markup(builder_opts:_markup_builder_opts_type = {}):markup_type {
+export function _markup(builder_opts:_markup_builder_opts_T = {}):markup_T {
 	const {
-		_match = ({ filename }:_match_opts_type)=>extname(filename) === '.svg',
+		_match = ({ filename }:_match_opts_T)=>extname(filename) === '.svg',
 	} = builder_opts
-	return async (opts:_match_opts_type)=>{
+	return async (opts:_match_opts_T)=>{
 		if (!_match(opts)) return
 		const { content } = opts
 		let code
@@ -50,17 +50,19 @@ $: {
 		}
 	}
 }
-export interface _markup_builder_opts_type {
-	_match?:(opts:_match_opts_type)=>string
+export interface _markup_builder_opts_T {
+	_match?:(opts:_match_opts_T)=>string
 }
-export interface _match_opts_type {
+export type _markup_builder_opts_type = _markup_builder_opts_T
+export interface _match_opts_T {
 	filename:string
 	content:string
 }
-export interface _markup_fn_return_type {
+export type _match_opts_type = _match_opts_T
+export interface _markup_fn_return_T {
 	code:any
 	map:null
 }
-export type markup_type =
-	(opts:_match_opts_type)=>
-		Promise<_markup_fn_return_type|undefined>
+export type _markup_fn_return_type = _markup_fn_return_T
+export type markup_T = (opts:_match_opts_T)=>Promise<_markup_fn_return_T|undefined>
+export type markup_type = markup_T

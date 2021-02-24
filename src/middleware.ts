@@ -1,12 +1,12 @@
 import fs from 'fs'
 import { join } from 'path'
 import { map } from '@ctx-core/array'
-import { keys, clone, _has__key } from '@ctx-core/object'
+import { keys, clone, _has_key } from '@ctx-core/object'
 import { promisify } from 'util'
 import { Parser } from 'htmlparser2'
 const exists = promisify(fs.exists)
 const readFile = promisify(fs.readFile)
-export function _get__svg({ dir }) {
+export function _get_svg({ dir }) {
 	return async function get(req, res) {
 		const { params, query } = req
 		const { name } = params
@@ -16,9 +16,9 @@ export function _get__svg({ dir }) {
 			join(dir, name),
 		]
 		for (let i = 0; i < path_a1.length; i += 1) {
-			const path__ = path_a1[i]
-			if (await exists(path__)) {
-				path = path__
+			const l_path = path_a1[i]
+			if (await exists(l_path)) {
+				path = l_path
 				break
 			}
 		}
@@ -28,42 +28,45 @@ export function _get__svg({ dir }) {
 			return
 		}
 		const svg = '' + await readFile(path)
-		if (!_has__key(query)) {
+		if (!_has_key(query)) {
 			res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
 			res.end(svg)
 			return
 		}
-		let svg__opentag = ''
-		let startIndex__svg__opentag = 0
-		let endIndex__svg__opentag = svg.length
+		let opentag_svg = ''
+		let opentag_svg_startIndex = 0
+		let opentag_svg_endIndex = svg.length
 		const parser = new Parser({
 			onopentag(name, attribs) {
 				if (name === 'svg') {
-					startIndex__svg__opentag = parser.startIndex
-					endIndex__svg__opentag = parser.endIndex as number
-					const attribs__ = clone(attribs, query)
-					if (attribs__.viewbox) {
-						attribs__.viewBox = attribs__.viewbox
-						delete attribs__.viewbox
+					opentag_svg_startIndex = parser.startIndex
+					opentag_svg_endIndex = parser.endIndex as number
+					const l_attribs = clone(attribs, query)
+					if (l_attribs.viewbox) {
+						l_attribs.viewBox = l_attribs.viewbox
+						delete l_attribs.viewbox
 					}
-					const txt__attribs__ =
+					const l_attribs_txt =
 						map(
-							keys(attribs__),
+							keys(l_attribs),
 							key=>
-								`${key}=${JSON.stringify(attribs__[key])}`
+								`${key}=${JSON.stringify(l_attribs[key])}`
 						).join(' ')
-					svg__opentag = `<svg ${txt__attribs__}>`
+					opentag_svg = `<svg ${l_attribs_txt}>`
 				}
 			},
 		}, { decodeEntities: true })
 		parser.write(svg)
 		parser.end()
-		const svg__ = `${
-			startIndex__svg__opentag
-			? svg.slice(0, startIndex__svg__opentag - 1)
+		const out_svg = `${
+			opentag_svg_startIndex
+			? svg.slice(0, opentag_svg_startIndex - 1)
 			: ''
-		}${svg__opentag}${svg.slice(endIndex__svg__opentag + 1)}`
+		}${opentag_svg}${svg.slice(opentag_svg_endIndex + 1)}`
 		res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
-		res.end(svg__)
+		res.end(out_svg)
 	}
+}
+export {
+	_get_svg as _get__svg
 }

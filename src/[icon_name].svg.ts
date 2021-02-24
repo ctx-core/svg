@@ -13,7 +13,7 @@ const resolve_promise = promisify(resolve)
  * Returns a `get` http handler that processes the svelte component whose path
  * is returned from `opts.resolve`.
  */
-export function _get(opts = {} as _get_opts_type) {
+export function _get(opts = {} as _get_opts_T) {
 	const { fn } = opts
 	const resolve = opts.resolve || resolve_promise
 	if (typeof resolve !== 'function') throw 'opts.resolve must be a function'
@@ -49,12 +49,16 @@ export function _get(opts = {} as _get_opts_type) {
 		res.end(svg)
 	}
 }
-export type _get_type = (opts?:_get_opts_type)=>get_type
-export type get_type = (req:Request, res:Response)=>Promise<void>
-export interface _get_opts_type_fn_req_type {
+export type _get_T = (opts?:_get_opts_T)=>get_T
+export type _get_type = _get_T
+export type get_T = (req:Request, res:Response)=>Promise<void>
+export type get_type = get_T
+export interface _get_opts_type_fn_req_T {
 	fn(req:Request, res:Response):Promise<void>
 }
-export interface _get_opts_type {
+export type _get_opts_type_fn_req_type = _get_opts_type_fn_req_T
+export interface _get_opts_T {
 	fn?:(req:Request, res:Response)=>Promise<any>
 	resolve?:(path:string)=>Promise<string>
 }
+export type _get_opts_type = _get_opts_T

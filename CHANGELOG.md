@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.2.0
+
+### Minor Changes
+
+- \*\_T named types
+
 ## 10.1.22
 
 ### Patch Changes
