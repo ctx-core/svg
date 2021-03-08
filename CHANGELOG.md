@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.2.11
+
+### Patch Changes
+
+- htmlparser2: ^6.0.0 -> ^6.0.1
+
 ## 10.2.10
 
 ### Patch Changes
