@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.2.14
+
+### Patch Changes
+
+- domutils: ^2.4.4 -> ^2.5.0
+
 ## 10.2.13
 
 ### Patch Changes
