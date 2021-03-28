@@ -1,5 +1,19 @@
 # @ctx-core/svg
 
+## 10.2.18
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.1
+  - @ctx-core/error@8.0.19
+  - @ctx-core/function@17.4.2
+  - @ctx-core/object@17.4.1
+  - @ctx-core/sapper@10.2.3
+  - @ctx-core/store@24.1.14
+  - @ctx-core/svelte@7.2.5
+
 ## 10.2.17
 
 ### Patch Changes
