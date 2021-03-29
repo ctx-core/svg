@@ -1,5 +1,19 @@
 # @ctx-core/svg
 
+## 10.2.19
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.2
+  - @ctx-core/error@8.0.20
+  - @ctx-core/function@17.4.3
+  - @ctx-core/object@17.4.2
+  - @ctx-core/sapper@10.2.4
+  - @ctx-core/store@24.1.15
+  - @ctx-core/svelte@7.2.6
+
 ## 10.2.18
 
 ### Patch Changes
