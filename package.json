@@ -38,7 +38,7 @@
 		"domutils": "^2.5.1",
 		"htmlparser2": "^6.0.1",
 		"resolve": "^1.20.0",
-		"svelte": "3.35.0"
+		"svelte": "3.37.0"
 	},
 	"devDependencies": {
 		"@types/express": "4.17.11",
