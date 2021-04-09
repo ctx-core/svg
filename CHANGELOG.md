@@ -1,5 +1,12 @@
 # @ctx-core/svg
 
+## 10.2.23
+
+### Patch Changes
+
+- htmlparser2: ^6.0.1 -> ^6.1.0
+- domutils: ^2.5.1 -> ^2.5.2
+
 ## 10.2.22
 
 ### Patch Changes
