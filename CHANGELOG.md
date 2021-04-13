@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 10.2.28
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/sapper@10.2.12
+
 ## 10.2.27
 
 ### Patch Changes
