@@ -1,5 +1,12 @@
 # @ctx-core/svg
 
+## 10.2.30
+
+### Patch Changes
+
+- domutils: ^2.5.2 -> ^2.6.0
+- domhandler: ^4.1.0 -> ^4.2.0
+
 ## 10.2.29
 
 ### Patch Changes
