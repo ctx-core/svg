@@ -1,5 +1,15 @@
 # @ctx-core/svg
 
+## 10.2.51
+
+### Patch Changes
+
+- svelte: 3.38.0 -> 3.38.1
+- Updated dependencies [undefined]
+  - @ctx-core/sapper@10.2.34
+  - @ctx-core/store@24.7.2
+  - @ctx-core/svelte@7.2.12
+
 ## 10.2.50
 
 ### Patch Changes
