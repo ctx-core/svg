@@ -4,10 +4,14 @@ import { map } from '@ctx-core/array'
 import { keys, clone, _has_key } from '@ctx-core/object'
 import { promisify } from 'util'
 import { Parser } from 'htmlparser2'
+import type { Request, Response } from 'express'
 const exists = promisify(fs.exists)
 const readFile = promisify(fs.readFile)
-export function _get_svg({ dir }) {
-	return async function get(req, res) {
+export interface _get_svg_params_I {
+	dir:string
+}
+export function _get_svg({ dir }:_get_svg_params_I) {
+	return async function get(req:Request, res:Response) {
 		const { params, query } = req
 		const { name } = params
 		let path
