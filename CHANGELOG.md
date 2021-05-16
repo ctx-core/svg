@@ -1,5 +1,19 @@
 # @ctx-core/svg
 
+## 10.3.3
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.2
+  - @ctx-core/error@8.1.2
+  - @ctx-core/function@17.9.2
+  - @ctx-core/object@17.6.2
+  - @ctx-core/sapper@10.4.3
+  - @ctx-core/store@24.8.2
+  - @ctx-core/svelte@7.3.2
+
 ## 10.3.2
 
 ### Patch Changes
