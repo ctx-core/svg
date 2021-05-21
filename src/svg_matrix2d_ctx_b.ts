@@ -6,7 +6,7 @@ import { $maybe_svg_height_T, svg_height_b, svg_height_Ctx } from './svg_height_
 import { $maybe_svg_content_width_T, svg_content_width_b, svg_content_width_Ctx } from './svg_content_width_b'
 import { $maybe_svg_content_height_T, svg_content_height_b, svg_content_height_Ctx } from './svg_content_height_b'
 const key = 'svg_matrix2d_ctx'
-export interface svg_matrix2d_ctx_ctx_I
+export interface svg_matrix2d_ctx_Ctx
 	extends svg_margin_Ctx,
 		svg_width_Ctx,
 		svg_height_Ctx,
@@ -14,7 +14,7 @@ export interface svg_matrix2d_ctx_ctx_I
 		svg_content_height_Ctx {
 	svg_matrix2d_ctx?:svg_matrix2d_ctx_T
 }
-export const svg_matrix2d_ctx_b = _b<svg_matrix2d_ctx_ctx_I, typeof key>(key, ctx=>
+export const svg_matrix2d_ctx_b = _b<svg_matrix2d_ctx_Ctx, typeof key>(key, ctx=>
 	derived([
 			svg_margin_b(ctx),
 			svg_width_b(ctx),
