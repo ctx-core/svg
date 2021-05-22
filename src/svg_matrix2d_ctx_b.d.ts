@@ -7,7 +7,7 @@ import { $maybe_svg_content_height_T, svg_content_height_Ctx } from './svg_conte
 export interface svg_matrix2d_ctx_Ctx extends svg_margin_Ctx, svg_width_Ctx, svg_height_Ctx, svg_content_width_Ctx, svg_content_height_Ctx {
     svg_matrix2d_ctx?: svg_matrix2d_ctx_T;
 }
-export declare const svg_matrix2d_ctx_b: import("@ctx-core/object").Be<svg_matrix2d_ctx_Ctx, "svg_matrix2d_ctx">;
+export declare const svg_matrix2d_ctx_b: import("@ctx-core/object").Be<svg_matrix2d_ctx_Ctx, "svg_matrix2d_ctx", svg_matrix2d_ctx_T>;
 export interface $svg_matrix2d_ctx_T {
     svg_margin: $maybe_svg_margin_T;
     svg_width: $maybe_svg_width_T;
