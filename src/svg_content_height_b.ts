@@ -1,10 +1,8 @@
 import { _b } from '@ctx-core/object'
 import { Writable, writable } from '@ctx-core/store'
+import type { svg_Ctx } from './svg_Ctx'
 const key = 'svg_content_height'
-export interface svg_content_height_Ctx {
-	svg_content_height?:svg_content_height_T
-}
-export const svg_content_height_b = _b<svg_content_height_Ctx, typeof key>(key, ()=>
+export const svg_content_height_b = _b<svg_Ctx, typeof key>(key, ()=>
 	writable(undefined) as svg_content_height_T
 )
 export type $svg_content_height_T = number

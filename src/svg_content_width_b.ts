@@ -1,11 +1,9 @@
 import type { maybe_null } from '@ctx-core/function'
 import { _b } from '@ctx-core/object'
 import { Writable, writable } from '@ctx-core/store'
+import type { svg_Ctx } from './svg_Ctx'
 const key = 'svg_content_width'
-export interface svg_content_width_Ctx {
-	svg_content_width?:svg_content_width_T
-}
-export const svg_content_width_b = _b<svg_content_width_Ctx, typeof key>(key, ()=>
+export const svg_content_width_b = _b<svg_Ctx, typeof key>(key, ()=>
 	writable(null) as svg_content_width_T
 )
 export type $svg_content_width_T = number

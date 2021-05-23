@@ -1,21 +1,14 @@
 import { _b } from '@ctx-core/object'
 import { get } from '@ctx-core/store'
-import { $svg_margin_T, svg_margin_b, svg_margin_Ctx } from './svg_margin_b'
-import { svg_width_b, svg_width_Ctx } from './svg_width_b'
-import { svg_height_b, svg_height_Ctx } from './svg_height_b'
-import { svg_content_width_b, svg_content_width_Ctx } from './svg_content_width_b'
-import { svg_content_height_b, svg_content_height_Ctx } from './svg_content_height_b'
+import { $svg_margin_T, svg_margin_b } from './svg_margin_b'
+import { svg_width_b } from './svg_width_b'
+import { svg_height_b } from './svg_height_b'
+import { svg_content_width_b } from './svg_content_width_b'
+import { svg_content_height_b } from './svg_content_height_b'
 import type { Placement } from './Placement'
+import type { svg_Ctx } from './svg_Ctx'
 const key = 'set_svg_matrix2d'
-export interface set_svg_matrix2d_Ctx
-	extends svg_margin_Ctx,
-		svg_width_Ctx,
-		svg_height_Ctx,
-		svg_content_width_Ctx,
-		svg_content_height_Ctx {
-	set_svg_matrix2d?:set_svg_matrix2d_T
-}
-export const set_svg_matrix2d_b = _b<set_svg_matrix2d_Ctx, typeof key>(key, ctx=>{
+export const set_svg_matrix2d_b = _b<svg_Ctx, typeof key>(key, ctx=>{
 	return set_svg_matrix2d
 	async function set_svg_matrix2d(
 		opts:svg_matrix2d_set_opts_T = {}
