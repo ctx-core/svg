@@ -1,5 +1,16 @@
 # @ctx-core/svg
 
+## 10.4.2
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.9
+  - @ctx-core/error@8.1.10
+  - @ctx-core/sapper@10.5.2
+  - @ctx-core/store@24.8.9
+
 ## 10.4.1
 
 ### Patch Changes
