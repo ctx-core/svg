@@ -1,6 +1,6 @@
 import type { Placement } from './Placement';
 import type { svg_Ctx } from './svg_Ctx';
-export declare const set_svg_matrix2d_b: import("@ctx-core/object").Be<svg_Ctx, "set_svg_matrix2d", set_svg_matrix2d_T>;
+export declare const set_svg_matrix2d_b: (ctx: svg_Ctx, opts?: import("@ctx-core/object")._be_opts_T | undefined) => set_svg_matrix2d_T;
 export interface svg_matrix2d_set_opts_T {
     svg_margin?: Placement;
     svg_width?: number;

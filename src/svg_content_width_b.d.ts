@@ -1,7 +1,7 @@
 import type { maybe_null } from '@ctx-core/function';
 import { Writable } from '@ctx-core/store';
 import type { svg_Ctx } from './svg_Ctx';
-export declare const svg_content_width_b: import("@ctx-core/object").Be<svg_Ctx, "svg_content_width", svg_content_width_T>;
+export declare const svg_content_width_b: (ctx: svg_Ctx, opts?: import("@ctx-core/object")._be_opts_T | undefined) => svg_content_width_T;
 export declare type $svg_content_width_T = number;
 export declare type $maybe_svg_content_width_T = maybe_null<$svg_content_width_T>;
 export interface svg_content_width_T extends Writable<$maybe_svg_content_width_T> {

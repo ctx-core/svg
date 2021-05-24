@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "10.4.2",
+	"version": "10.4.3",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -18,7 +18,7 @@
 	"author": "Brian Takita",
 	"main": "./src/index.js",
 	"module": "./src/index.js",
-	"types": "./src/index.ts",
+	"types": "./src/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -27,13 +27,13 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.3.9",
-		"@ctx-core/error": "workspace:^8.1.10",
-		"@ctx-core/function": "workspace:^17.9.2",
-		"@ctx-core/object": "workspace:^18.0.5",
-		"@ctx-core/sapper": "workspace:^10.5.2",
-		"@ctx-core/store": "workspace:^24.8.9",
-		"@ctx-core/svelte": "workspace:^7.3.2",
+		"@ctx-core/array": "workspace:^20.3.10",
+		"@ctx-core/error": "workspace:^8.1.11",
+		"@ctx-core/function": "workspace:^17.9.3",
+		"@ctx-core/object": "workspace:^18.0.6",
+		"@ctx-core/sapper": "workspace:^10.5.3",
+		"@ctx-core/store": "workspace:^24.8.10",
+		"@ctx-core/svelte": "workspace:^7.3.3",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.6.0",
 		"htmlparser2": "^6.1.0",
