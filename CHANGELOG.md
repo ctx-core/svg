@@ -1,5 +1,22 @@
 # @ctx-core/svg
 
+## 10.5.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.0
+  - @ctx-core/error@8.2.0
+  - @ctx-core/function@17.10.0
+  - @ctx-core/object@18.1.0
+  - @ctx-core/sapper@10.6.0
+  - @ctx-core/store@24.9.0
+  - @ctx-core/svelte@7.4.0
+
 ## 10.4.3
 
 ### Patch Changes
