@@ -1,5 +1,22 @@
 # @ctx-core/svg
 
+## 10.6.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+  - @ctx-core/error@8.3.0
+  - @ctx-core/function@17.11.0
+  - @ctx-core/object@18.2.0
+  - @ctx-core/sapper@10.7.0
+  - @ctx-core/store@24.10.0
+  - @ctx-core/svelte@7.5.0
+
 ## 10.5.2
 
 ### Patch Changes
