@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.6.2
+
+### Patch Changes
+
+- @types/express: 4.17.11 -> 4.17.12
+
 ## 10.6.1
 
 ### Patch Changes
