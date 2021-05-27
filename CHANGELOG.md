@@ -1,5 +1,18 @@
 # @ctx-core/svg
 
+## 10.6.4
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/error@8.3.1
+  - @ctx-core/function@17.11.1
+  - @ctx-core/object@18.2.1
+  - @ctx-core/sapper@10.7.1
+  - @ctx-core/store@24.10.1
+  - @ctx-core/svelte@7.5.2
+
 ## 10.6.3
 
 ### Patch Changes
