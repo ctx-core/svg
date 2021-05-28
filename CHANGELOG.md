@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.6.5
+
+### Patch Changes
+
+- - svg_b_h_b
+
 ## 10.6.4
 
 ### Patch Changes

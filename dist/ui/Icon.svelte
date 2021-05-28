@@ -1,1 +1,1 @@
-/home/brian/work/ctx-core/ctx-core/packages/svg/src/ui/Icon.svelte
+../../src/ui/Icon.svelte
