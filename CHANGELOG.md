@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 10.6.6
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 10.6.5
 
 ### Patch Changes
