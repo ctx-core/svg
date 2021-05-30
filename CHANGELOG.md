@@ -1,5 +1,14 @@
 # @ctx-core/svg
 
+## 11.0.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/sapper@11.0.2
+
 ## 11.0.0
 
 ### Major Changes
