@@ -8,12 +8,12 @@ import { keys } from '@ctx-core/object'
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
-export function _markup(builder_opts:_markup_builder_opts_T = {}):markup_T {
+export function markup_(builder_opts:_markup_builder_opts_T = {}):markup_T {
 	const {
-		_match = ({ filename }:_match_opts_T)=>extname(filename) === '.svg',
+		match_ = ({ filename }:_match_opts_T)=>extname(filename) === '.svg',
 	} = builder_opts
 	return async (opts:_match_opts_T)=>{
-		if (!_match(opts)) return
+		if (!match_(opts)) return
 		const { content } = opts
 		let code
 		const handler = new DomHandler((error, dom)=>{
@@ -51,7 +51,7 @@ $: {
 	}
 }
 export interface _markup_builder_opts_T {
-	_match?:(opts:_match_opts_T)=>string
+	match_?:(opts:_match_opts_T)=>string
 }
 export type _markup_builder_opts_type = _markup_builder_opts_T
 export interface _match_opts_T {
@@ -66,3 +66,6 @@ export interface _markup_fn_return_T {
 export type _markup_fn_return_type = _markup_fn_return_T
 export type markup_T = (opts:_match_opts_T)=>Promise<_markup_fn_return_T|undefined>
 export type markup_type = markup_T
+export {
+	markup_ as _markup,
+}

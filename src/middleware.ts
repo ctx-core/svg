@@ -7,20 +7,20 @@ import { Parser } from 'htmlparser2'
 import type { Request, Response } from 'express'
 const exists = promisify(fs.exists)
 const readFile = promisify(fs.readFile)
-export interface _get_svg_params_I {
+export interface get_svg_params__I {
 	dir:string
 }
-export function _get_svg({ dir }:_get_svg_params_I) {
+export function get_svg_({ dir }:get_svg_params__I) {
 	return async function get(req:Request, res:Response) {
 		const { params, query } = req
 		const { name } = params
 		let path
-		const path_a1 = [
+		const path_a = [
 			join(dir, `${name}.svg`),
 			join(dir, name),
 		]
-		for (let i = 0; i < path_a1.length; i += 1) {
-			const l_path = path_a1[i]
+		for (let i = 0; i < path_a.length; i += 1) {
+			const l_path = path_a[i]
 			if (await exists(l_path)) {
 				path = l_path
 				break
@@ -72,5 +72,6 @@ export function _get_svg({ dir }:_get_svg_params_I) {
 	}
 }
 export {
-	_get_svg as _get__svg
+	get_svg_ as _get_svg,
+	get_svg_ as _get__svg,
 }
