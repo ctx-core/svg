@@ -1,4 +1,4 @@
-import { _b } from '@ctx-core/object'
+import { be_ } from '@ctx-core/object'
 import { derived, Readable } from '@ctx-core/store'
 import { maybe_svg_margin_T, svg_margin$_b } from './svg_margin$_b'
 import { maybe_svg_width_T, svg_width$_b } from './svg_width$_b'
@@ -7,7 +7,7 @@ import { maybe_svg_content_width_T, svg_content_width$_b } from './svg_content_w
 import { maybe_svg_content_height_T, svg_content_height$_b } from './svg_content_height$_b'
 import type { svg_Ctx } from './svg_Ctx'
 const key = 'svg_matrix2d_ctx$'
-export const svg_matrix2d_ctx$_b = _b<svg_Ctx, typeof key>(key, ctx=>
+export const svg_matrix2d_ctx$_b = be_<svg_Ctx, typeof key>(key, ctx=>
 	derived([
 			svg_margin$_b(ctx),
 			svg_width$_b(ctx),

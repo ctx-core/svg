@@ -1,9 +1,9 @@
-import { _b } from '@ctx-core/object'
+import { be_ } from '@ctx-core/object'
 import { Writable, writable } from '@ctx-core/store'
 import type { Placement } from './Placement'
 import type { svg_Ctx } from './svg_Ctx'
 const key = 'svg_margin$'
-export const svg_margin$_b = _b<svg_Ctx, typeof key>(key, ()=>
+export const svg_margin$_b = be_<svg_Ctx, typeof key>(key, ()=>
 	writable(undefined) as svg_margin$_T
 )
 export type svg_margin_T = Placement
