@@ -1,5 +1,12 @@
 # @ctx-core/svg
 
+## 11.0.12
+
+### Patch Changes
+
+- - @ctx-core/sapper
+  - @ctx-core/svelte
+
 ## 11.0.11
 
 ### Patch Changes
