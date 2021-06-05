@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "11.0.18",
+	"version": "11.0.19",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -29,11 +29,11 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^21.1.2",
-		"@ctx-core/error": "workspace:^9.0.0",
+		"@ctx-core/array": "workspace:^21.1.3",
+		"@ctx-core/error": "workspace:^9.0.1",
 		"@ctx-core/function": "workspace:^18.1.0",
-		"@ctx-core/object": "workspace:^19.0.3",
-		"@ctx-core/store": "workspace:^25.1.5",
+		"@ctx-core/object": "workspace:^19.0.4",
+		"@ctx-core/store": "workspace:^25.1.6",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.6.0",
 		"htmlparser2": "^6.1.0",
