@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 11.0.26
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/error@9.0.3
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 11.0.25
 
 ### Patch Changes

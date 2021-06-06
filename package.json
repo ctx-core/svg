@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "11.0.25",
+	"version": "11.0.26",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -21,7 +21,7 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile && npm run symlink",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@",
@@ -29,11 +29,11 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^21.2.5",
-		"@ctx-core/error": "workspace:^9.0.2",
-		"@ctx-core/function": "workspace:^18.1.1",
-		"@ctx-core/object": "workspace:^19.1.1",
-		"@ctx-core/store": "workspace:^25.1.11",
+		"@ctx-core/array": "workspace:^21.2.6",
+		"@ctx-core/error": "workspace:^9.0.3",
+		"@ctx-core/function": "workspace:^18.1.2",
+		"@ctx-core/object": "workspace:^19.1.2",
+		"@ctx-core/store": "workspace:^25.1.12",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.7.0",
 		"htmlparser2": "^6.1.0",
@@ -41,8 +41,8 @@
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.12",
-		"@ctx-core/dev-tools": "workspace:^5.1.2",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.13",
+		"@ctx-core/dev-tools": "workspace:^5.1.3",
 		"@types/express": "4.17.12",
 		"typescript": "^4.3.2"
 	},
