@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 11.0.27
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+  - @ctx-core/error@9.0.4
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 11.0.26
 
 ### Patch Changes
