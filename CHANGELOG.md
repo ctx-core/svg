@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 11.0.29
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.0.28
 
 ### Patch Changes
