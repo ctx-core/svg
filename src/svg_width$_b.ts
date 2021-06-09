@@ -1,8 +1,8 @@
-import { be_ } from '@ctx-core/object'
+import { B, be_ } from '@ctx-core/object'
 import { writable, Writable } from '@ctx-core/store'
 import type { svg_Ctx } from './svg_Ctx'
 const key = 'svg_width$'
-export const svg_width$_b = be_<svg_Ctx, typeof key>(key, ()=>
+export const svg_width$_b:B<svg_Ctx, typeof key> = be_(key, ()=>
 	writable(undefined) as svg_width$_T
 )
 export type svg_width_T = number
