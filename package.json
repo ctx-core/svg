@@ -32,7 +32,7 @@
 		"@ctx-core/array": "workspace:^21.3.0",
 		"@ctx-core/error": "workspace:^9.0.5",
 		"@ctx-core/function": "workspace:^18.1.3",
-		"@ctx-core/object": "workspace:^19.1.4",
+		"@ctx-core/object": "workspace:^19.1.5",
 		"@ctx-core/store": "workspace:^25.1.17",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.7.0",
