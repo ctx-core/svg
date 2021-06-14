@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 12.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 12.0.0
 
 ### Major Changes
