@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 12.0.12
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.9
+  - @ctx-core/error@10.0.7
+  - @ctx-core/function@19.1.7
+  - @ctx-core/object@20.0.8
+  - @ctx-core/store@26.0.9
+
 ## 12.0.11
 
 ### Patch Changes
