@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "12.0.19",
+	"version": "12.0.20",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -16,23 +16,24 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"main": "./src/index.js",
-	"module": "./src/index.js",
-	"types": "./src/index.d.ts",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"scripts": {
-		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile",
+		"build": "npm run clean && npm run generate_ctx_I_file && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
+		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run compile",
-		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
+		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file",
+		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.0.15",
-		"@ctx-core/error": "workspace:^10.1.4",
-		"@ctx-core/function": "workspace:^19.1.9",
-		"@ctx-core/object": "workspace:^20.2.1",
-		"@ctx-core/store": "workspace:^26.0.16",
+		"@ctx-core/array": "workspace:^22.0.16",
+		"@ctx-core/error": "workspace:^10.1.5",
+		"@ctx-core/function": "workspace:^19.1.10",
+		"@ctx-core/object": "workspace:^20.2.2",
+		"@ctx-core/store": "workspace:^26.0.17",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.7.0",
 		"htmlparser2": "^6.1.0",
@@ -40,8 +41,8 @@
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.11",
-		"@ctx-core/dev-tools": "workspace:^6.0.11",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.12",
+		"@ctx-core/dev-tools": "workspace:^6.0.12",
 		"@types/express": "4.17.12",
 		"typescript": "^4.3.4"
 	},
