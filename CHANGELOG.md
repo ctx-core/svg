@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 12.1.0
+
+### Minor Changes
+
+- - svg*preprocess*: alias \_svg_preprocess
+
 ## 12.0.28
 
 ### Patch Changes
