@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 12.1.8
+
+### Patch Changes
+
+- version bump
+
 ## 12.1.7
 
 ### Patch Changes
