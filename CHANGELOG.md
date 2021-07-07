@@ -1,5 +1,15 @@
 # @ctx-core/svg
 
+## 12.1.7
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.1.6
+  - @ctx-core/error@10.1.9
+  - @ctx-core/store@26.0.25
+
 ## 12.1.6
 
 ### Patch Changes
