@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 12.1.2
+
+### Patch Changes
+
+- @types/express: 4.17.12 -> 4.17.13
+
 ## 12.1.1
 
 ### Patch Changes
