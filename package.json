@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "12.1.10",
+	"version": "12.1.11",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -31,9 +31,9 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^22.1.6",
 		"@ctx-core/error": "workspace:^10.1.9",
-		"@ctx-core/function": "workspace:^19.1.13",
-		"@ctx-core/object": "workspace:^20.4.1",
-		"@ctx-core/store": "workspace:^26.0.25",
+		"@ctx-core/function": "workspace:^19.2.0",
+		"@ctx-core/object": "workspace:^20.4.2",
+		"@ctx-core/store": "workspace:^26.0.26",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.7.0",
 		"htmlparser2": "^6.1.0",
