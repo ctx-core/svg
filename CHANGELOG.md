@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 12.1.13
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/error@10.1.10
+
 ## 12.1.12
 
 ### Patch Changes
