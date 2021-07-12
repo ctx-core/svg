@@ -29,10 +29,10 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.2.0",
+		"@ctx-core/array": "workspace:^22.3.0",
 		"@ctx-core/error": "workspace:^10.1.9",
 		"@ctx-core/function": "workspace:^19.2.0",
-		"@ctx-core/object": "workspace:^20.4.2",
+		"@ctx-core/object": "workspace:^20.5.0",
 		"@ctx-core/store": "workspace:^26.0.27",
 		"domhandler": "^4.2.0",
 		"domutils": "^2.7.0",
