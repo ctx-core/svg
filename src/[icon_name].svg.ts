@@ -1,5 +1,7 @@
 import fs from 'fs'
 import { promisify } from 'util'
+import resolve from 'resolve'
+const resolve_async = promisify(resolve)
 import { DomHandler, Parser } from 'htmlparser2'
 import { getOuterHTML } from 'domutils'
 import type { Element } from 'domhandler'
@@ -7,15 +9,13 @@ import type { Request, Response } from 'express'
 import { assign } from '@ctx-core/object'
 import { find } from '@ctx-core/array'
 import { throw_not_found } from '@ctx-core/error'
-import resolve from 'resolve'
-const resolve_promise = promisify(resolve)
 /**
  * Returns a `get` http handler that processes the svelte component whose path
  * is returned from `opts.resolve`.
  */
-export function get_(opts = {} as get_opts__T) {
+export function svg_get_(opts:get_opts__T = {}) {
 	const { fn } = opts
-	const resolve = opts.resolve || resolve_promise
+	const resolve = opts.resolve || resolve_async
 	if (typeof resolve !== 'function') throw 'opts.resolve must be a function'
 	return async function get(req:Request, res:Response) {
 		res.setHeader('Content-Type', 'image/svg+xml')
@@ -49,6 +49,7 @@ export function get_(opts = {} as get_opts__T) {
 		res.end(svg)
 	}
 }
+export type svg_get__resolve_T = (path:string)=>Promise<string>
 export type get__T = (opts?:get_opts__T)=>get_T
 export type _get_T = get__T
 export type _get_type = get__T
@@ -61,7 +62,7 @@ export type _get_opts_type_fn_req_T = get_opts_type_fn_req__T
 export type _get_opts_type_fn_req_type = get_opts_type_fn_req__T
 export interface get_opts__T {
 	fn?:(req:Request, res:Response)=>Promise<any>
-	resolve?:(path:string)=>Promise<string>
+	resolve?:svg_get__resolve_T
 }
 export type _get_opts_T = get_opts__T
 export type _get_opts_type = get_opts__T
