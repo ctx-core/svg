@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 13.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 13.0.2
 
 ### Patch Changes
