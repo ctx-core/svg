@@ -1,4 +1,4 @@
-import { markup_, markup_T } from './markup_'
+import { markup_, markup_T } from './markup_.js'
 export function svg_preprocess_(builder_opts = {}):svg_preprocess_T {
 	const markup = markup_(builder_opts)
 	return {
