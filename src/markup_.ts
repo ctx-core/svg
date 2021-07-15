@@ -2,7 +2,7 @@ import { extname } from 'path'
 import { DomHandler } from 'domhandler'
 import type { Element } from 'domhandler/lib/node'
 import { getInnerHTML } from 'domutils'
-import { Parser } from 'htmlparser2/lib/Parser'
+import { Parser } from 'htmlparser2/lib/Parser.js'
 import { map } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
 /**
