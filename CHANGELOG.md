@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 13.0.4
+
+### Patch Changes
+
+- fix: module type import
+
 ## 13.0.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 export * from './svg_Ctx.js'
 export * from './svg_ctx_I.generated.js'
-export * from './[icon_name].svg'
+export * from './[icon_name].svg.js'
 export * from './markup_.js'
 export * from './markup.js'
 export * from './Placement.js'
