@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 13.0.14
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.12
+  - @ctx-core/error@11.0.12
+  - @ctx-core/function@20.0.11
+  - @ctx-core/object@21.0.11
+  - @ctx-core/store@27.0.10
+
 ## 13.0.13
 
 ### Patch Changes
