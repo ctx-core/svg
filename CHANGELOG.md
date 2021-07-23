@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 13.0.21
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 13.0.20
 
 ### Patch Changes
