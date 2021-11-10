@@ -33,7 +33,7 @@
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc",
-		"prepublishOnly": "npm run build"
+		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.0.23",
