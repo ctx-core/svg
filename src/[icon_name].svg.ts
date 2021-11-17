@@ -1,14 +1,14 @@
-import fs from 'fs'
-import { promisify } from 'util'
-import resolve from 'resolve'
-const resolve_async = promisify(resolve)
-import { DomHandler, Parser } from 'htmlparser2'
-import { getOuterHTML } from 'domutils'
-import type { Element } from 'domhandler'
 import type { Request, Response } from 'express'
-import { assign } from '@ctx-core/object'
+import type { Element } from 'domhandler'
+import getOuterHTML from 'dom-serializer'
+import fs from 'fs'
+import { DomHandler, Parser } from 'htmlparser2'
+import resolve from 'resolve'
+import { promisify } from 'util'
+const resolve_async = promisify(resolve)
 import { find } from '@ctx-core/array'
 import { throw_not_found } from '@ctx-core/error'
+import { assign } from '@ctx-core/object'
 /**
  * Returns a `get` http handler that processes the svelte component whose path
  * is returned from `opts.resolve`.

@@ -1,14 +1,9 @@
-<script>
-import { keys, unpick } from '@ctx-core/object'
+<script lang="ts">
 import { each } from '@ctx-core/array'
-export let viewBox = null
-export let preserveAspectRatio = null
-export let height = null
-export let width = null
-export let x = null
-export let y = null
-export let style = ''
-export let node = null
+import { keys, unpick } from '@ctx-core/object'
+export let viewBox:string|null = null, preserveAspectRatio:string|null = null, height:string|number|null = null,
+	width:string|number|null = null, x:string|number|null = null, y:string|number|null = null, style = '',
+	node:SVGElement|null = null
 let props
 $: props = unpick($$props, 'class')
 // TODO: Use spread {...props} on node on fix - https://github.com/sveltejs/svelte/issues/2732
@@ -17,7 +12,7 @@ $: {
 	if (node) {
 		each(
 			keys(props),
-			prop => node.setAttribute(prop, props[prop]))
+			prop=>node!.setAttribute(prop, props[prop]))
 	}
 }
 </script>

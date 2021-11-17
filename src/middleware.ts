@@ -1,16 +1,13 @@
-import fs from 'fs'
+import type { Request, Response } from 'express'
+import { readFile, stat } from 'fs/promises'
+import { Parser } from 'htmlparser2'
 import { join } from 'path'
 import { map } from '@ctx-core/array'
 import { keys, clone, _has_key } from '@ctx-core/object'
-import { promisify } from 'util'
-import { Parser } from 'htmlparser2'
-import type { Request, Response } from 'express'
-const exists = promisify(fs.exists)
-const readFile = promisify(fs.readFile)
 export interface get_svg_params__I {
 	dir:string
 }
-export function get_svg_({ dir }:get_svg_params__I) {
+export function get_svg_({ dir }:get_svg_params__I):(req:Request, res:Response)=>Promise<void> {
 	return async function get(req:Request, res:Response) {
 		const { params, query } = req
 		const { name } = params
@@ -21,10 +18,11 @@ export function get_svg_({ dir }:get_svg_params__I) {
 		]
 		for (let i = 0; i < path_a.length; i += 1) {
 			const l_path = path_a[i]
-			if (await exists(l_path)) {
-				path = l_path
-				break
-			}
+			try {
+				if (await stat(l_path)) {
+					break
+				}
+			} catch (e) {}
 		}
 		if (!path) {
 			res.writeHead(404)

@@ -1,5 +1,20 @@
 # @ctx-core/svg
 
+## 14.0.0
+
+### Major Changes
+
+- simplify types: svg_content_height$_T{-svg_content_height_T,-maybe_svg_content_height_T},svg_content_width$\_T{-svg_content_width_T,-maybe_svg_content_width_T},svg_height$_T{-svg_height_T,-maybe_svg_height_T},svg_margin$\_T{-svg_margin_T,-maybe_svg_margin_T},svg_matrix2d_ctx$_T,svg_width$\_T{-svg_width_T,-maybe_svg_width_T}
+
+### Minor Changes
+
+- Writable$: svg_content_height$\_T,svg_content_width$_T,svg_height$\_T,svg_margin$_T,svg_width$\_T
+- markup_builder_opts**T from \_markup_builder_opts_T,markup_fn_return**T out of \_markup_fn_return_T
+
+### Patch Changes
+
+- Icon: lang=ts
+
 ## 13.0.80
 
 ### Patch Changes

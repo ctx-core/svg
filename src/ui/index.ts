@@ -1,5 +1,2 @@
 import 'svelte'
-import Icon from './Icon.svelte'
-export {
-	Icon
-}
+export * as Icon from './Icon.svelte'

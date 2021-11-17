@@ -1,24 +1,24 @@
+import { DomHandler, hasChildren } from 'domhandler'
+import type { Element, NodeWithChildren } from 'domhandler'
+import getOuterHTML, { DomSerializerOptions } from 'dom-serializer'
+import { Parser } from 'htmlparser2'
 import { extname } from 'path'
-import { DomHandler } from 'domhandler'
-import type { Element } from 'domhandler/lib/node'
-import { getInnerHTML } from 'domutils'
-import { Parser } from 'htmlparser2/lib/Parser.js'
 import { map } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
 /**
  * Returns a svg preprocessor for svelte-rollup.
  */
-export function markup_(builder_opts:_markup_builder_opts_T = {}):markup_T {
+export function markup_(builder_opts:markup_builder_opts__T = {}):markup_T {
 	const {
-		match_ = ({ filename }:_match_opts_T)=>extname(filename) === '.svg',
+		match_ = ({ filename }:match_opts__T)=>extname(filename) === '.svg',
 	} = builder_opts
-	return async (opts:_match_opts_T)=>{
+	return async (opts:match_opts__T)=>{
 		if (!match_(opts)) return
 		const { content } = opts
 		let code
-		const handler = new DomHandler((error, dom)=>{
+		const handler = new DomHandler((error, dom_a)=>{
 			if (error) throw error
-			const dom0 = dom[0]
+			const dom0 = dom_a[0] as NodeWithChildren
 			const { attribs } = dom0 as Element
 			const attribs_txt =
 				map(
@@ -50,21 +50,29 @@ $: {
 		}
 	}
 }
-export interface _markup_builder_opts_T {
-	match_?:(opts:_match_opts_T)=>string
+function getInnerHTML(node:NodeWithChildren, options?:DomSerializerOptions) {
+	return hasChildren(node)
+				 ? node.children.map(function (node) { return getOuterHTML(node, options) }).join('')
+				 : ''
 }
-export type _markup_builder_opts_type = _markup_builder_opts_T
-export interface _match_opts_T {
+export interface markup_builder_opts__T {
+	match_?:(opts:match_opts__T)=>string
+}
+export type _markup_builder_opts_T = markup_builder_opts__T
+export type _markup_builder_opts_type = markup_builder_opts__T
+export interface match_opts__T {
 	filename:string
 	content:string
 }
-export type _match_opts_type = _match_opts_T
-export interface _markup_fn_return_T {
+export type _match_opts_T = match_opts__T
+export type _match_opts_type = match_opts__T
+export interface markup_fn_return__T {
 	code:any
 	map:null
 }
-export type _markup_fn_return_type = _markup_fn_return_T
-export type markup_T = (opts:_match_opts_T)=>Promise<_markup_fn_return_T|undefined>
+export type _markup_fn_return_T = markup_fn_return__T
+export type _markup_fn_return_type = markup_fn_return__T
+export type markup_T = (opts:match_opts__T)=>Promise<markup_fn_return__T|undefined>
 export type markup_type = markup_T
 export {
 	markup_ as _markup,
