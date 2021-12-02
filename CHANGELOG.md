@@ -1,5 +1,18 @@
 # @ctx-core/svg
 
+## 14.0.4
+
+### Patch Changes
+
+- @swc/core: ^1.2.113 -> ^1.2.116
+- domhandler: ^4.2.2 -> ^4.3.0
+- Updated dependencies
+  - @ctx-core/array@23.0.28
+  - @ctx-core/error@11.1.4
+  - @ctx-core/function@20.2.8
+  - @ctx-core/object@21.0.27
+  - @ctx-core/store@27.0.41
+
 ## 14.0.3
 
 ### Patch Changes
