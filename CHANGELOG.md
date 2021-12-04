@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 14.0.5
+
+### Patch Changes
+
+- @swc/core: ^1.2.116 -> ^1.2.117
+- Updated dependencies
+  - @ctx-core/array@23.0.29
+  - @ctx-core/error@11.1.5
+  - @ctx-core/function@20.2.9
+  - @ctx-core/object@21.0.28
+  - @ctx-core/store@27.0.42
+
 ## 14.0.4
 
 ### Patch Changes
