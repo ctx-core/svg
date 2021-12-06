@@ -1,5 +1,15 @@
 # @ctx-core/svg
 
+## 14.0.9
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/error@11.1.8
+  - @ctx-core/store@27.0.45
+
 ## 14.0.8
 
 ### Patch Changes
