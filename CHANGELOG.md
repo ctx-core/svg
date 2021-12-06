@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 14.0.7
+
+### Patch Changes
+
+- fix: @ctx-core/svg: Icon export
+
 ## 14.0.6
 
 ### Patch Changes
