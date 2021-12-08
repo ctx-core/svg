@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "14.0.9",
+	"version": "14.0.10",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -21,8 +21,12 @@
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
-			"require": "./dist/index.cjs",
-			"import": "./dist/index.js"
+			"browser": {
+				"import": "./dist/index.browser.js"
+			},
+			"node": {
+				"import": "./dist/index.js"
+			}
 		},
 		"./package.json": "./package.json"
 	},
@@ -48,7 +52,7 @@
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.83",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.84",
 		"@ctx-core/dev-tools": "workspace:^7.2.9",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",

@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 14.0.10
+
+### Patch Changes
+
+- fix: browser import: vite
+
 ## 14.0.9
 
 ### Patch Changes
