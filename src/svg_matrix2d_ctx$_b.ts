@@ -5,10 +5,9 @@ import { svg_width$_b } from './svg_width$_b.js'
 import { svg_height$_b } from './svg_height$_b.js'
 import { svg_content_width$_b } from './svg_content_width$_b.js'
 import { svg_content_height$_b } from './svg_content_height$_b.js'
-import type { svg_Ctx } from './svg_Ctx.js'
 import type { Placement } from './Placement'
 const key = 'svg_matrix2d_ctx$'
-export const svg_matrix2d_ctx$_b:B<svg_Ctx, typeof key> = be_(key, ctx=>
+export const svg_matrix2d_ctx$_b:B<svg_matrix2d_ctx$_T> = be_(key, ctx=>
 	derived([
 			svg_margin$_b(ctx),
 			svg_width$_b(ctx),

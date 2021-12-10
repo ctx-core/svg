@@ -5,9 +5,8 @@ import { svg_content_width$_b } from './svg_content_width$_b.js'
 import { svg_height$_b } from './svg_height$_b.js'
 import { svg_margin$_b } from './svg_margin$_b.js'
 import { svg_width$_b } from './svg_width$_b.js'
-import type { svg_Ctx } from './svg_Ctx.js'
 const key = 'set_svg_matrix2d'
-export const set_svg_matrix2d_b:B<svg_Ctx, typeof key> = be_(key, ctx=>{
+export const set_svg_matrix2d_b:B<set_svg_matrix2d_T> = be_(key, ctx=>{
 	return set_svg_matrix2d
 	async function set_svg_matrix2d(
 		opts:svg_matrix2d_set_opts_T = {}

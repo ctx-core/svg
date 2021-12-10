@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "14.0.10",
+	"version": "15.0.0",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,6 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"module": "./dist/index.js",
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
@@ -31,19 +30,18 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"build": "npm run generate_ctx_I_file && npm run compile",
+		"build": "npm run compile",
 		"clean": "rm -rf dist",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
-		"generate_ctx_I_file": "swc $(./node_modules/.bin/generate_ctx_I_file | tail -n1) --out-dir dist --source-maps --config-file .swcrc",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.32",
-		"@ctx-core/error": "workspace:^11.1.8",
+		"@ctx-core/array": "workspace:^23.0.33",
+		"@ctx-core/error": "workspace:^11.1.9",
 		"@ctx-core/function": "workspace:^20.2.12",
-		"@ctx-core/object": "workspace:^21.0.30",
-		"@ctx-core/store": "workspace:^27.0.45",
+		"@ctx-core/object": "workspace:^22.0.0",
+		"@ctx-core/store": "workspace:^27.0.46",
 		"dom-serializer": "^1.3.2",
 		"domhandler": "^4.3.0",
 		"domutils": "^2.8.0",
@@ -53,7 +51,6 @@
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
-		"@ctx-core/dev-tools": "workspace:^7.2.9",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"@types/express": "4.17.13",
