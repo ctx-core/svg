@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 16.0.0
+
+### Major Changes
+
+- extracted @ctx-core/svg-ui-svelte
+
 ## 15.0.0
 
 ### Major Changes

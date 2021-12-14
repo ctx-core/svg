@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "15.0.0",
+	"version": "16.0.0",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -46,13 +46,12 @@
 		"domhandler": "^4.3.0",
 		"domutils": "^2.8.0",
 		"htmlparser2": "^7.2.0",
-		"resolve": "^1.20.0",
-		"svelte": "3.44.2"
+		"resolve": "^1.20.0"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
-		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.118",
+		"@swc/cli": "^0.1.55",
+		"@swc/core": "^1.2.120",
 		"@types/express": "4.17.13",
 		"typescript": "next"
 	},
