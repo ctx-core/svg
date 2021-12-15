@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 16.0.1
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/error@11.1.10
+  - @ctx-core/function@20.2.13
+  - @ctx-core/object@22.0.1
+  - @ctx-core/store@27.0.48
+
 ## 16.0.0
 
 ### Major Changes
