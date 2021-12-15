@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 16.0.3
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/error@11.1.12
+  - @ctx-core/function@20.2.15
+  - @ctx-core/object@22.0.3
+  - @ctx-core/store@27.0.50
+
 ## 16.0.2
 
 ### Patch Changes
