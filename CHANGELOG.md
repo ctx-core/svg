@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 16.0.6
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/error@11.1.15
+  - @ctx-core/function@20.2.18
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 16.0.5
 
 ### Patch Changes
