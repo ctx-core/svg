@@ -1,5 +1,17 @@
 # @ctx-core/svg
 
+## 16.0.5
+
+### Patch Changes
+
+- fix: build
+- Updated dependencies
+  - @ctx-core/array@23.0.38
+  - @ctx-core/error@11.1.14
+  - @ctx-core/function@20.2.17
+  - @ctx-core/object@22.0.5
+  - @ctx-core/store@27.0.52
+
 ## 16.0.4
 
 ### Patch Changes
