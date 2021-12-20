@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import type { Request, Response } from 'express'
 import { readFile, stat } from 'fs/promises'
 import { Parser } from 'htmlparser2'

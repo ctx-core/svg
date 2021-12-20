@@ -1,5 +1,12 @@
 # @ctx-core/svg
 
+## 17.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+- markup*,markup,svg_preprocess*: moved to @ctx-core/svg-ui-svelte
+
 ## 16.0.8
 
 ### Patch Changes
