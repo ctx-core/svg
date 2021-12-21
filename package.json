@@ -46,7 +46,6 @@
 		"htmlparser2": "^7.2.0"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.97",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.121",
 		"@types/express": "4.17.13",
