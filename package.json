@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "17.0.7",
+	"version": "17.0.8",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -49,7 +49,7 @@
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.125",
 		"@types/express": "4.17.13",
-		"@types/node": "^17.0.6",
+		"@types/node": "^17.0.7",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
