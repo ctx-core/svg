@@ -1,5 +1,16 @@
 # @ctx-core/svg
 
+## 17.0.9
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- @types/node: ^17.0.7 -> ^17.0.8
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+
 ## 17.0.8
 
 ### Patch Changes
