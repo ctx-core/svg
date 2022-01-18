@@ -1,5 +1,14 @@
 # @ctx-core/svg
 
+## 17.0.16
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@24.0.0
+
 ## 17.0.15
 
 ### Patch Changes
