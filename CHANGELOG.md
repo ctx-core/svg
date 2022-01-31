@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.0.0
+
+### Major Changes
+
+- flatten functions: remove \_b suffix from exports
+
 ## 17.0.19
 
 ### Patch Changes
