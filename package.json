@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "18.0.2",
+	"version": "18.0.3",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -40,9 +40,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^24.0.1",
-		"@ctx-core/nanostores": "^0.5.3",
-		"@ctx-core/object": "^22.0.13",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/nanostores": "workspace:^0.5.4",
+		"@ctx-core/object": "workspace:*",
 		"htmlparser2": "^7.2.0"
 	},
 	"devDependencies": {
