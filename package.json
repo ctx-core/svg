@@ -40,9 +40,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:*",
-		"@ctx-core/nanostores": "workspace:^0.5.4",
-		"@ctx-core/object": "workspace:*",
+		"@ctx-core/array": "*",
+		"@ctx-core/nanostores": "^0.5.4",
+		"@ctx-core/object": "*",
 		"htmlparser2": "^7.2.0"
 	},
 	"devDependencies": {
