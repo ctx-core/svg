@@ -1,5 +1,16 @@
 # @ctx-core/svg
 
+## 18.0.15
+
+### Patch Changes
+
+- package.json: exports: update
+- fix: package.json: exports: + default
+- Updated dependencies
+  - @ctx-core/array@26.1.3
+  - @ctx-core/nanostores@1.0.11
+  - @ctx-core/object@22.1.4
+
 ## 18.0.14
 
 ### Patch Changes
