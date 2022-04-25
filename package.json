@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "18.0.16",
+	"version": "18.0.17",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -38,15 +38,15 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.1.5",
-		"@ctx-core/nanostores": "^1.0.13",
+		"@ctx-core/nanostores": "^1.0.14",
 		"@ctx-core/object": "^22.1.6",
-		"htmlparser2": "^7.2.0"
+		"htmlparser2": "^8.0.0"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.170",
+		"@swc/core": "^1.2.171",
 		"@types/express": "4.17.13",
-		"@types/node": "^17.0.25",
+		"@types/node": "^17.0.26",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},

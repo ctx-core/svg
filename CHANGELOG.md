@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 18.0.17
+
+### Patch Changes
+
+- htmlparser2: ^7.2.0 -> ^8.0.0
+- Updated dependencies
+  - @ctx-core/nanostores@1.0.14
+
 ## 18.0.16
 
 ### Patch Changes
