@@ -1,5 +1,16 @@
 # @ctx-core/svg
 
+## 18.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/array@26.5.0
+
 ## 18.0.31
 
 ### Patch Changes
