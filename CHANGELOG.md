@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 18.1.1
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/nanostores@1.4.1
+
 ## 18.1.0
 
 ### Minor Changes
