@@ -44,9 +44,9 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.196",
+		"@swc/core": "^1.2.197",
 		"@types/express": "4.17.13",
-		"@types/node": "^17.0.39",
+		"@types/node": "^17.0.40",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
