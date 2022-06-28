@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import { type Ctx } from '@ctx-core/object'
 import type { Placement } from './Placement.js'
 import { svg_content_height__ } from './svg_content_height__.js'
 import { svg_content_width__ } from './svg_content_width__.js'
