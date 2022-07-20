@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 18.1.5
+
+### Patch Changes
+
+- @ctx-core/array: ^26.6.0 -> ^26.7.0
+- Updated dependencies
+  - @ctx-core/array@26.7.1
+
 ## 18.1.4
 
 ### Patch Changes
