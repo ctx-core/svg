@@ -37,9 +37,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.7.3",
-		"@ctx-core/nanostores": "^1.4.4",
-		"@ctx-core/object": "^22.2.3",
+		"@ctx-core/array": "^26.7.4",
+		"@ctx-core/nanostores": "^1.4.5",
+		"@ctx-core/object": "^22.2.4",
 		"htmlparser2": "^8.0.1"
 	},
 	"devDependencies": {
