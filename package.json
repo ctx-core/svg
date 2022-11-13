@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.8.0",
-		"@ctx-core/nanostores": "^2.2.1",
+		"@ctx-core/nanostores": "^2.2.2",
 		"@ctx-core/object": "^22.3.0",
 		"htmlparser2": "^8.0.1"
 	},
