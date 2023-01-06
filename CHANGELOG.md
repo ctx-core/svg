@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.1.12
+
+### Patch Changes
+
+- svg_content_width**,svg_margin**: fix: types
+
 ## 18.1.11
 
 ### Patch Changes
