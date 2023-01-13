@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.1.21
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 18.1.20
 
 ### Patch Changes
