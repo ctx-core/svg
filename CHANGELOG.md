@@ -1,5 +1,14 @@
 # @ctx-core/svg
 
+## 18.1.27
+
+### Patch Changes
+
+- @ctx-core/object: ^24.1.1 -> ^24.1.2
+- Updated dependencies
+  - @ctx-core/array@26.8.14
+  - @ctx-core/nanostores@2.2.18
+
 ## 18.1.26
 
 ### Patch Changes
