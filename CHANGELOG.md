@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.1.28
+
+### Patch Changes
+
+- @swc/core: ^1.3.31 -> ^1.3.32
+
 ## 18.1.27
 
 ### Patch Changes
