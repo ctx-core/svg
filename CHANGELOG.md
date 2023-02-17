@@ -1,5 +1,15 @@
 # @ctx-core/svg
 
+## 18.2.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+- - svg**get**params_T: aliased by get_svg_params\_\_I
+- - svg_matrix2d_o_T: aliased by svg_matrix2d_ctx_T
+- - svg\__get_: aliased by get*svg*
+- - svg_matrix2d_o**: aliased by svg_matrix2d_ctx**
+
 ## 18.1.36
 
 ### Patch Changes
