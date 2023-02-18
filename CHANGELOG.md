@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.2.4
+
+### Patch Changes
+
+- @ctx-core/array: ^26.11.0 -> ^26.11.1
+
 ## 18.2.3
 
 ### Patch Changes
