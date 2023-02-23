@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.2.12
+
+### Patch Changes
+
+- reference type: Be instead of B
+
 ## 18.2.11
 
 ### Patch Changes

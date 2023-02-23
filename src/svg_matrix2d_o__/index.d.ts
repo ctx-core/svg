@@ -1,7 +1,7 @@
 import type { ReadableAtom_ } from '@ctx-core/nanostores'
-import type { B } from '@ctx-core/object'
+import type { Be } from '@ctx-core/object'
 import type { Placement } from './Placement.js'
-export declare const svg_matrix2d_o__:B<ReadableAtom_<svg_matrix2d_o_T>>
+export declare const svg_matrix2d_o__:Be<ReadableAtom_<svg_matrix2d_o_T>>
 export {
 	svg_matrix2d_o__ as svg_matrix2d_ctx__,
 	svg_matrix2d_o__ as svg_matrix2d_ctx$_
