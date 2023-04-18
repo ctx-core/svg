@@ -1,5 +1,27 @@
 # @ctx-core/svg
 
+## 18.2.59
+
+### Patch Changes
+
+- @ctx-core/queue: ^7.5.16 -> ^7.5.17
+- @ctx-core/dev-tools: 8.1.109 -> 8.1.110
+- @ctx-core/git-tools: ^7.0.59 -> ^7.0.60
+- @ctx-core/monorepo: ^20.2.3 -> ^20.3.0
+- @ctx-core/ctx-core-package-tools: ^8.0.189 -> ^8.0.190
+- @ctx-core/build: 1.0.297 -> 1.0.298
+- @ctx-core/function: ^21.17.14 -> ^21.17.15
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@26.12.29
+  - @ctx-core/nanostores@3.2.19
+  - @ctx-core/object@27.4.20
+
 ## 18.2.58
 
 ### Patch Changes
