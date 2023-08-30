@@ -1,5 +1,40 @@
 # @ctx-core/svg
 
+## 18.3.0
+
+### Minor Changes
+
+- - svg*content_height*,svg_content_height\_\_set
+
+  svg*content_height$*: aliased by svg_content_height\_\_
+
+- - svg*matrix2d_o*
+
+  svg*matrix2d_o$*: aliased by svg_matrix2d_o\_\_
+
+- - svg*margin*,svg_margin\_\_set
+
+  svg*margin$*: aliased by svg_margin\_\_
+
+- - svg*height*,svg_height\_\_set
+
+  svg*height$*: aliased by svg_height\_\_
+
+- - svg*width*,svg_width\_\_set
+
+  svg*width$*: aliased by svg_width\_\_
+
+- - svg*content_width*,svg_content_width\_\_set
+
+  svg*content_width$*: aliased by svg_content_width\_\_
+
+- - svg_matrix2d**set_params_T: aliased by svg_matrix2d**set\_\_opts_T
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@28.0.5
+
 ## 18.2.108
 
 ### Patch Changes

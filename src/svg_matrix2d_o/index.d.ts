@@ -1,10 +1,13 @@
-import type { ReadableAtom_ } from '@ctx-core/nanostores'
-import type { Be } from '@ctx-core/object'
+import type { val__be_computed_pair_T } from '@ctx-core/nanostores'
 import type { Placement } from './Placement.js'
-export declare const svg_matrix2d_o__:Be<ReadableAtom_<svg_matrix2d_o_T>>
+export declare const [
+	svg_matrix2d_o$_,
+	svg_matrix2d_o_,
+]:val__be_computed_pair_T<svg_matrix2d_o_T>
 export {
-	svg_matrix2d_o__ as svg_matrix2d_ctx__,
-	svg_matrix2d_o__ as svg_matrix2d_ctx$_
+	svg_matrix2d_o$_ as svg_matrix2d_o__,
+	svg_matrix2d_o$_ as svg_matrix2d_ctx__,
+	svg_matrix2d_o$_ as svg_matrix2d_ctx$_
 }
 export interface svg_matrix2d_o_T {
 	svg_margin:Placement|undefined
