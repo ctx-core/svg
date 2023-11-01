@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "18.3.13",
+	"version": "18.3.14",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -37,9 +37,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.5",
-		"@ctx-core/nanostores": "^7.0.3",
-		"@ctx-core/object": "^28.2.1",
+		"@ctx-core/array": "^26.15.6",
+		"@ctx-core/nanostores": "^7.0.4",
+		"@ctx-core/object": "^28.2.2",
 		"htmlparser2": "^9.0.0"
 	},
 	"devDependencies": {
