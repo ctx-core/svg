@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "18.3.18",
+	"version": "18.4.0",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -17,13 +17,24 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "index.js",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./node",
+		"./svg_content_height",
+		"./svg_content_width",
+		"./svg_height",
+		"./svg_margin",
+		"./svg_matrix2d__set",
+		"./svg_matrix2d_o",
+		"./svg_width"
+	],
+	"types": "./index.d.ts",
 	"exports": {
 		".": {
-			"browser": "./src/index.browser.js",
-			"default": "./src/index.js",
-			"node": "./src/index.js"
+			"browser": "./index.browser.js",
+			"default": "./index.js",
+			"node": "./index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -37,9 +48,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0",
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/nanostores": "^7.1.0",
+		"@ctx-core/object": "^30.1.0",
 		"htmlparser2": "^9.0.0"
 	},
 	"devDependencies": {

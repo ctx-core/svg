@@ -1,5 +1,5 @@
 import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').val__be_atom_triple_T}val__be_atom_triple_T */
+/** @typedef {import('@ctx-core/nanostores').val__be_atom_triple_T}val__be_atom_triple_T */
 export const [
 	svg_content_width$_,
 	svg_content_width_,

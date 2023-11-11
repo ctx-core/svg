@@ -1,5 +1,5 @@
 import type { val__be_atom_triple_T } from '@ctx-core/nanostores'
-import type { Placement } from './Placement.js'
+import type { Placement } from '../_types/index.js'
 export declare const [
 	svg_margin$_,
 	svg_margin_,

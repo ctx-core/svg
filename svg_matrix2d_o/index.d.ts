@@ -1,5 +1,5 @@
 import type { val__be_computed_pair_T } from '@ctx-core/nanostores'
-import type { Placement } from './Placement.js'
+import type { Placement } from '../_types/index.js'
 export declare const [
 	svg_matrix2d_o$_,
 	svg_matrix2d_o_,

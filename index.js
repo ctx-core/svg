@@ -1,3 +1,4 @@
+export * from './_types/index.js'
 export * from './node/index.js'
 export * from './svg_matrix2d__set/index.js'
 export * from './svg_content_height/index.js'
