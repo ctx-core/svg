@@ -1,5 +1,15 @@
 # @ctx-core/svg
 
+## 18.4.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/array@27.0.2
+  - @ctx-core/nanostores@7.1.3
+  - @ctx-core/object@30.1.2
+
 ## 18.4.1
 
 ### Patch Changes
