@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.4.19
+
+### Patch Changes
+
+- fix: be\_\*: implementation & types
+
 ## 18.4.18
 
 ### Patch Changes
