@@ -3,8 +3,8 @@ import { svg_content_width__set } from '../svg_content_width/index.js'
 import { svg_height_, svg_height__set } from '../svg_height/index.js'
 import { svg_margin_, svg_margin__set } from '../svg_margin/index.js'
 import { svg_width_, svg_width__set } from '../svg_width/index.js'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('./index.d.ts').svg_matrix2d__set_params_T}svg_matrix2d__set_params_T */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('./index.d.ts').svg_matrix2d__set_params_T} */
 /**
  * @param {Ctx}ctx
  * @param {svg_matrix2d__set_params_T}[params]

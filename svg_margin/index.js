@@ -1,9 +1,8 @@
-import { atom_ } from '@ctx-core/nanostores'
-import { be_ } from '@ctx-core/object'
+import { be_atom_triple_ } from '@ctx-core/nanostores'
 export const [
 	svg_margin$_,
 	svg_margin_,
 	svg_margin__set,
-] = be_('svg_margin', ()=>
-	atom_(undefined))
+] = be_atom_triple_(()=>undefined
+).config({ id: 'svg_margin' })
 export { svg_margin$_ as svg_margin__ }
