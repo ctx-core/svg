@@ -4,6 +4,6 @@ export const [
 	svg_height_,
 	svg_height__set,
 ] = be_atom_triple_(()=>
-	undefined)
-	.config({ id: 'svg_height' })
+	undefined,
+{ id: 'svg_height' })
 export { svg_height$_ as svg_height__ }
