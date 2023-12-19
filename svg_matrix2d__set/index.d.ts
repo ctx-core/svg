@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { Placement } from '../_types/index.js'
 export declare function svg_matrix2d__set(
 	ctx:Ctx,

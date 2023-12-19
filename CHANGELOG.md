@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.4.62
+
+### Patch Changes
+
+- consolidate dependencies
+
 ## 18.4.61
 
 ### Patch Changes

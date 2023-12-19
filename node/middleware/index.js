@@ -1,11 +1,12 @@
 /// <reference types="node" />
-import { map } from '@ctx-core/array'
-import { _has_key, clone, keys } from '@ctx-core/object'
+/// <reference types="./index.d.ts" />
+import { map } from 'ctx-core/array'
+import { _has_key, clone, keys } from 'ctx-core/object'
 import { readFile, stat } from 'fs/promises'
 import { Parser } from 'htmlparser2'
 import { join } from 'path'
 /**
- * @param params{import('./index.d.ts').svg__get__params_T}
+ * @param params{svg__get__params_T}
  * @returns {(req:Request, res:Response)=>Promise<void>}
  */
 export function svg__get_(params) {
