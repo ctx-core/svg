@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 18.4.67
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^10.0.7 -> ^10.0.8
+
 ## 18.4.66
 
 ### Patch Changes
