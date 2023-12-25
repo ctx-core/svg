@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 19.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 18.4.73
 
 ### Patch Changes

@@ -1,9 +1,9 @@
-import type { be_computed_pair_T } from '@ctx-core/nanostores'
+import type { be_memo_pair_T } from 'ctx-core/rmemo'
 import type { Placement } from '../_types/index.js'
 export declare const [
 	svg_matrix2d_o$_,
 	svg_matrix2d_o_,
-]:be_computed_pair_T<svg_matrix2d_o_T>
+]:be_memo_pair_T<svg_matrix2d_o_T>
 export {
 	svg_matrix2d_o$_ as svg_matrix2d_o__,
 	svg_matrix2d_o$_ as svg_matrix2d_ctx__,
