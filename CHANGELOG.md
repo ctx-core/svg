@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 19.0.9
+
+### Patch Changes
+
+- htmlparser2: ^9.0.0 -> ^9.1.0
+
 ## 19.0.8
 
 ### Patch Changes
