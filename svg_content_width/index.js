@@ -5,7 +5,8 @@ export const [
 	svg_content_width$_,
 	svg_content_width_,
 	svg_content_width__set,
-] = /** @type {be_sig_triple_T<number>} */be_sig_triple_(
-	()=>undefined,
-	{ id: 'svg_content_width' })
+] = /** @type {be_sig_triple_T<number>} */
+	be_sig_triple_(
+		()=>undefined,
+		{ id: 'svg_content_width' })
 export { svg_content_width$_ as svg_content_width__ }
