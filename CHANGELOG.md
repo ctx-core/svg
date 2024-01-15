@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 19.0.24
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+
 ## 19.0.23
 
 ### Patch Changes

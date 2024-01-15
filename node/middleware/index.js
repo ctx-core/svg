@@ -2,9 +2,9 @@
 /// <reference types="./index.d.ts" />
 import { map } from 'ctx-core/array'
 import { _has_key, clone, keys } from 'ctx-core/object'
-import { readFile, stat } from 'fs/promises'
+import { readFile, stat } from 'node:fs/promises'
 import { Parser } from 'htmlparser2'
-import { join } from 'path'
+import { join } from 'node:path'
 /**
  * @param params{svg__get__params_T}
  * @returns {(req:Request, res:Response)=>Promise<void>}
