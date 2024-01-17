@@ -1,5 +1,11 @@
 # @ctx-core/svg
 
+## 19.0.30
+
+### Patch Changes
+
+- ctx-core: ^5.20.0 -> ^5.21.0
+
 ## 19.0.29
 
 ### Patch Changes
