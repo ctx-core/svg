@@ -6,7 +6,7 @@ import { svg_height_, svg_height__set } from '../svg_height/index.js'
 import { svg_margin_, svg_margin__set } from '../svg_margin/index.js'
 import { svg_width_, svg_width__set } from '../svg_width/index.js'
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {svg_matrix2d__set_params_T}[params]
  * @returns {Promise<void>}
  */

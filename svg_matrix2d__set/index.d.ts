@@ -1,7 +1,7 @@
-import type { Ctx } from 'ctx-core/be'
+import type { ctx_T } from 'ctx-core/be'
 import type { Placement } from '../_types/index.js'
 export declare function svg_matrix2d__set(
-	ctx:Ctx,
+	ctx:ctx_T,
 	params?:svg_matrix2d__set_params_T
 ):Promise<void>
 export {
