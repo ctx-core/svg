@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "19.0.91",
+	"version": "19.0.92",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/svg.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-svg@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -51,7 +55,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0",
+		"ctx-core": "^6.6.1",
 		"htmlparser2": "^9.1.0"
 	},
 	"devDependencies": {
