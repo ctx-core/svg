@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/svg",
-	"version": "19.0.105",
+	"version": "19.0.106",
 	"description": "ctx-core svg",
 	"keywords": [
 		"ctx-core",
@@ -55,13 +55,13 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.1.1",
+		"ctx-core": "^7.1.2",
 		"htmlparser2": "^9.1.0"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
 		"check-dts": "^0.7.2",
-		"tsx": "^4.7.1",
+		"tsx": "^4.7.2",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
