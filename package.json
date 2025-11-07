@@ -55,13 +55,13 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.32",
+		"ctx-core": "*",
 		"htmlparser2": "^9.1.0"
 	},
 	"devDependencies": {
-		"c8": "^10.1.2",
+		"c8": "^10.1.3",
 		"check-dts": "^0.8.2",
-		"tsx": "^4.19.0",
+		"tsx": "^4.20.6",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
