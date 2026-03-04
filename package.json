@@ -56,7 +56,7 @@
 	},
 	"dependencies": {
 		"ctx-core": "*",
-		"htmlparser2": "^9.1.0"
+		"htmlparser2": "^10.1.0"
 	},
 	"devDependencies": {
 		"c8": "^11.0.0",
