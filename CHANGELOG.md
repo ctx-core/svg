@@ -1,5 +1,13 @@
 # @ctx-core/svg
 
+## 19.0.143
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 19.0.142
 
 ### Patch Changes
